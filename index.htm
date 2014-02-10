@@ -1,0 +1,377 @@
+<html>
+
+<head>
+  <title>Test</title>
+</head>
+
+<body>
+
+<div id="textDiv"></div>
+
+<script src="three/three.min.js"></script>
+<script src="three/ColladaLoader.js"></script>
+<script src="jsar/JSARToolKit.js"></script>
+<script>
+
+threshold = 100;
+DEBUG = 0;
+
+var videoDiv;
+
+var video = document.createElement('video');
+video.width = 320;
+video.height = 240;
+video.loop = true;
+video.volume = 0;
+video.autoplay = true;
+video.controls = false;
+video.setAttribute("style", "display:none;");
+  
+var getUserMedia = function(t, onsuccess, onerror) {
+  if (navigator.getUserMedia) {
+	return navigator.getUserMedia(t, onsuccess, onerror);
+  } else if (navigator.webkitGetUserMedia) {
+	return navigator.webkitGetUserMedia(t, onsuccess, onerror);
+  } else if (navigator.mozGetUserMedia) {
+	return navigator.mozGetUserMedia(t, onsuccess, onerror);
+  } else if (navigator.msGetUserMedia) {
+	return navigator.msGetUserMedia(t, onsuccess, onerror);
+  } else {
+	onerror(new Error("No getUserMedia implementation found."));
+  }
+};
+
+var URL = window.URL || window.webkitURL;
+var createObjectURL = URL.createObjectURL || webkitURL.createObjectURL;
+if (!createObjectURL) {
+  throw new Error("URL.createObjectURL not found.");
+}
+
+getUserMedia({'video': true},
+  function(stream) {
+	var url = createObjectURL(stream);
+	video.src = url;	
+  },
+  function(error) {
+	alert("Couldn't access webcam.");
+  }
+);
+
+  window.onload = function() {
+    document.body.appendChild(video);
+
+    var canvas = document.createElement('canvas');
+    canvas.id = 'canvas';
+    canvas.width = 320;
+    canvas.height = 240;
+    //document.body.appendChild(canvas);
+
+    var debugCanvas = document.createElement('canvas');
+    debugCanvas.id = 'debugCanvas';
+    debugCanvas.width = 640;
+    debugCanvas.height = 480;
+    document.body.appendChild(debugCanvas);
+
+    var videoCanvas = document.createElement('canvas');
+	videoCanvas.id = 'videoCanvas';
+    videoCanvas.width = video.width;
+    videoCanvas.height = video.height;
+	//document.body.appendChild(videoCanvas);
+	
+	var raster = new NyARRgbRaster_Canvas2D(videoCanvas);
+    var param = new FLARParam(320,240);
+	var detector = new FLARMultiIdMarkerDetector(param, 100);
+    detector.setContinueMode(true);
+		
+    var resultMat = new NyARTransMatResult();
+
+    var tmp = new Float32Array(16);
+
+    var renderer = new THREE.WebGLRenderer();
+    renderer.setSize(640, 480);
+
+    var glCanvas = renderer.domElement;
+    var s = glCanvas.style;
+    document.body.appendChild(glCanvas);
+
+    var scene = new THREE.Scene();
+    var light = new THREE.PointLight(0xffffff);
+    light.position.set(0, 0, -5000);
+    scene.add(light);
+    var light = new THREE.PointLight(0xffffff);
+    light.position.set(0, 0, 5000);
+	scene.add(light);
+
+	const shift = 100 / 7 * 9 / 2;
+
+    // Create a camera and a marker root object for your Three.js scene.
+    var camera = new THREE.Camera();
+    scene.add(camera);
+	
+	THREE.Matrix4.prototype.setFromArray = function(m) {
+  return this.set(
+    m[0], m[4], m[8], m[12],
+    m[1], m[5], m[9], m[13],
+    m[2], m[6], m[10], m[14],
+    m[3], m[7], m[11], m[15]
+  );
+};
+
+function copyMarkerMatrix(arMat, glMat) {
+  glMat[0] = arMat.m00;
+  glMat[1] = -arMat.m10;
+  glMat[2] = arMat.m20;
+  glMat[3] = 0;
+  glMat[4] = arMat.m01;
+  glMat[5] = -arMat.m11;
+  glMat[6] = arMat.m21;
+  glMat[7] = 0;
+  glMat[8] = -arMat.m02;
+  glMat[9] = arMat.m12;
+  glMat[10] = -arMat.m22;
+  glMat[11] = 0;
+  glMat[12] = arMat.m03;
+  glMat[13] = -arMat.m13;
+  glMat[14] = arMat.m23;
+  glMat[15] = 1;
+}
+
+	const PI = 3.14159265358979;
+
+	var ids = new Array();
+	var rot_vector = new Array();
+	var rot_angle = new Array();
+	ids[0] = 95; rot_vector[0] = new THREE.Vector3(0,1,0); rot_angle[0] = -PI/2. * 0; // front
+	ids[1] = 91; rot_vector[1] = new THREE.Vector3(0,1,0); rot_angle[1] = -PI/2. * 1; 
+	ids[2] = 34; rot_vector[2] = new THREE.Vector3(0,1,0); rot_angle[2] = -PI/2. * 2; 
+	ids[3] = 64; rot_vector[3] = new THREE.Vector3(0,1,0); rot_angle[3] = -PI/2. * 3; 
+	ids[4] = 71; rot_vector[4] = new THREE.Vector3(1,0,0); rot_angle[4] = -PI/2. * 1; // up
+	
+	var rotation_matrixes = new Array();
+	
+	for (var i = 0; i <= 4; ++i) {
+		rotation_matrixes[i] = new THREE.Matrix4();
+		rotation_matrixes[i].makeRotationAxis(rot_vector[i], rot_angle[i])
+	}
+	
+	var model, mesh;
+	
+	//var models = new Array();
+	//var meshes = new Array();
+
+
+var is_loaded = 0;
+var loader = new THREE.JSONLoader();
+
+var createMesh = function( geometry, materials )
+{	
+	model = new THREE.Object3D();
+	model.matrixAutoUpdate = false;		
+	var cube = new THREE.Mesh( geometry, new THREE.MeshFaceMaterial(materials) );
+	cube.applyMatrix(new THREE.Matrix4().makeScale( -1 * 50 , 1 * 50, 1 * 50) );
+	cube.position.z = 0;		
+	//cube.rotateOnAxis(rot_vector[i], rot_angle[i]);		
+	mesh = cube;
+	mesh.visible = false;
+	model.add(cube);
+	model.visible = true;	
+	scene.add(model);
+	
+	is_loaded = 1;
+}; 
+loader.load( "./model/mesh.js", createMesh );
+//while (is_loaded == 0) {
+	
+//}
+	
+	    
+    // Next we need to make the Three.js camera use the FLARParam matrix.
+    param.copyCameraMatrix(tmp, 10, 10000);
+    camera.projectionMatrix.setFromArray(tmp);
+
+    var videoTex = new THREE.Texture(videoCanvas);
+
+    // Create scene and quad for the video.
+    var plane = new THREE.Mesh(
+      new THREE.PlaneGeometry(2, 2, 0),
+      new THREE.MeshBasicMaterial({map: videoTex})
+    );
+    plane.material.depthTest = false;
+    plane.material.depthWrite = false;
+    var videoCam = new THREE.Camera();
+    var videoScene = new THREE.Scene();
+    videoScene.add(plane);
+    videoScene.add(videoCam);
+	
+	var last_marker_index = -1;
+	
+	var date = new Date();
+	var last_update = date.getTime();
+	var last_with = date.getTime();
+	var last_tick = date.getTime();
+	
+	var current_position = new THREE.Matrix4();
+	var d = new THREE.Matrix4();
+	var steps = 0;
+	var marker = new THREE.Matrix4();
+	
+		
+	// On every frame do the following:
+function tick() {
+
+	if (is_loaded == 0) {
+		return;
+	}
+     
+	var date = new Date();
+	var current_time = date.getTime();
+	
+	//console.log(current_time - last_tick);
+			
+	if (steps) {
+		var passed = current_time - last_tick;
+		if (passed > steps) {
+			passed = steps;
+			steps = 0;
+		}
+		steps -= passed;
+		for (var i = 0; i < 16; ++i) {
+			current_position.elements[i] += d.elements[i] * passed;
+		}
+		
+		console.log("POS");
+		console.log(current_position.elements);
+		
+		model.matrix.elements.set(current_position.elements);
+		model.matrixWorldNeedsUpdate = true;
+	}
+	
+	last_tick = current_time;
+	
+	var video_tick = 0;
+       
+	if (current_time - last_update >= 30) {
+		video_tick = 1;
+		
+		videoCanvas.getContext('2d').drawImage(video, 0, 0, video.width, video.height);
+		videoCanvas.changed = true;
+		videoTex.needsUpdate = true;
+	
+		last_update = current_time;
+	   
+		var markerCount = detector.detectMarkerLite(raster, threshold);
+	  
+		var present = 0;
+		var current_indexes = new Array();
+		for (var i = 0; i < markerCount; ++i) {
+			var t = detector.getARCodeIndex(i);
+			for (var j = 0; j <= 4; ++j) {
+				if (t == ids[j]) {
+					current_indexes[i] = j;
+					break;
+				}
+			}
+			if (current_indexes[i] == last_marker_index) {
+				present = 1;
+			}
+		}  
+	  
+		var div = document.getElementById("textDiv");
+		div.textContent = "|" + last_marker_index + "|" + current_indexes + "|" + ids;
+	   
+		if (present == 0) { 
+		
+				if (current_time - last_with >= 200) {
+					if (last_marker_index != -1) {
+						mesh.visible = 0;				
+					}
+					last_marker_index = -1;
+					steps = 0;
+					
+					if (markerCount != 0) {
+						for (var i = 0; i <= 0; ++i) {	
+							var id = current_indexes[i];
+							last_marker_index = id;
+							last_with = current_time;
+							mesh.visible = true;
+							//alert("OK");
+							detector.getTransformMatrix(i, resultMat);
+							copyMarkerMatrix(resultMat, tmp);
+							
+							marker.setFromArray(tmp);
+							
+							var m1 = new THREE.Matrix4();
+							var new_pos = new THREE.Vector4(0, 0, shift);
+							new_pos.applyMatrix4( marker );
+							
+							var new_matrix = new THREE.Matrix4();
+							new_matrix.extractRotation(marker);							
+							new_matrix.multiply(rotation_matrixes[id]);
+							new_matrix.setPosition(new_pos);							
+							
+							d = new THREE.Matrix4();
+							
+							steps = 100;
+							for (var j = 0; j < 16; ++j) {
+								d.elements[j] = (new_matrix.elements[j] - current_position.elements[j]) / steps;
+							}														
+						}					
+					}
+				}
+				
+		} else {
+		
+			for (var i = 0; i < markerCount; ++i) {
+						if (current_indexes[i] == last_marker_index) {
+							last_with = current_time;
+							//last_marker_index = j;
+							//meshes[j].visible = true;
+							//alert("OK");
+							detector.getTransformMatrix(i, resultMat);
+							copyMarkerMatrix(resultMat, tmp);	
+					
+							marker.setFromArray(tmp);
+							
+							var m1 = new THREE.Matrix4();
+							var new_pos = new THREE.Vector4(0, 0, shift);
+							new_pos.applyMatrix4( marker );
+														
+							var new_matrix = new THREE.Matrix4();
+							new_matrix.extractRotation(marker);							
+							new_matrix.multiply(rotation_matrixes[last_marker_index]);
+							new_matrix.setPosition(new_pos);
+							
+							d = new THREE.Matrix4();
+							
+							steps = 100;
+							for (var j = 0; j < 16; ++j) {
+								d.elements[j] = (new_matrix.elements[j] - current_position.elements[j]) / steps;
+							}
+							
+							break;
+						}
+					}
+		
+		}
+		
+	}
+	  
+  renderer.autoClear = false;
+  renderer.clear();
+  renderer.render(videoScene, videoCam);
+  renderer.render(scene, camera);
+}
+
+setInterval(tick, 15);
+}
+	
+	
+
+
+</script>
+
+
+ 
+</body>
+  
+</html>
