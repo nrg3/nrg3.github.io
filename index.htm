@@ -1,22 +1,17 @@
 <html>
-
 <head>
-  <title>Test</title>
+  <title>=*</title>
 </head>
 
 <body>
 
-<div id="textDiv"></div>
-
 <script src="three/three.min.js"></script>
-<script src="three/ColladaLoader.js"></script>
-<script src="jsar/JSARToolKit.js"></script>
+<script src="jsar/JSARToolKit.min.js"></script>
+
 <script>
 
 threshold = 100;
 DEBUG = 0;
-
-var videoDiv;
 
 var video = document.createElement('video');
 video.width = 320;
@@ -84,7 +79,6 @@ getUserMedia({'video': true},
     detector.setContinueMode(true);
 		
     var resultMat = new NyARTransMatResult();
-
     var tmp = new Float32Array(16);
 
     var renderer = new THREE.WebGLRenderer();
@@ -108,34 +102,6 @@ getUserMedia({'video': true},
     var camera = new THREE.Camera();
     scene.add(camera);
 	
-	THREE.Matrix4.prototype.setFromArray = function(m) {
-  return this.set(
-    m[0], m[4], m[8], m[12],
-    m[1], m[5], m[9], m[13],
-    m[2], m[6], m[10], m[14],
-    m[3], m[7], m[11], m[15]
-  );
-};
-
-function copyMarkerMatrix(arMat, glMat) {
-  glMat[0] = arMat.m00;
-  glMat[1] = -arMat.m10;
-  glMat[2] = arMat.m20;
-  glMat[3] = 0;
-  glMat[4] = arMat.m01;
-  glMat[5] = -arMat.m11;
-  glMat[6] = arMat.m21;
-  glMat[7] = 0;
-  glMat[8] = -arMat.m02;
-  glMat[9] = arMat.m12;
-  glMat[10] = -arMat.m22;
-  glMat[11] = 0;
-  glMat[12] = arMat.m03;
-  glMat[13] = -arMat.m13;
-  glMat[14] = arMat.m23;
-  glMat[15] = 1;
-}
-
 	const PI = 3.14159265358979;
 
 	var ids = new Array();
@@ -169,8 +135,7 @@ var createMesh = function( geometry, materials )
 	model.matrixAutoUpdate = false;		
 	var cube = new THREE.Mesh( geometry, new THREE.MeshFaceMaterial(materials) );
 	cube.applyMatrix(new THREE.Matrix4().makeScale( -1 * 50 , 1 * 50, 1 * 50) );
-	cube.position.z = 0;		
-	//cube.rotateOnAxis(rot_vector[i], rot_angle[i]);		
+	cube.position.z = 0;
 	mesh = cube;
 	mesh.visible = false;
 	model.add(cube);
@@ -207,171 +172,292 @@ loader.load( "./model/mesh.js", createMesh );
 	
 	var date = new Date();
 	var last_update = date.getTime();
-	var last_with = date.getTime();
+	var last_with = 0;//date.getTime();
 	var last_tick = date.getTime();
 	
 	var current_position = new THREE.Matrix4();
 	var d = new THREE.Matrix4();
 	var steps = 0;
-	var marker = new THREE.Matrix4();
 	
+	var marker = new THREE.Matrix4();
+	var new_matrix = new THREE.Matrix4();
+	var sum = new THREE.Matrix4();
+	var up = 0;
+	
+	var c_position = new THREE.Vector3();
+	var d_position = new THREE.Vector3();
+	
+	var c_quaternion = new THREE.Quaternion();
+	var end_quaternion = new THREE.Quaternion();
+	
+	var sum_position = new THREE.Vector3();
+	var sum_quaternion = new THREE.Quaternion();
+	
+	var some_position = new THREE.Vector3();
+	var some_quaternion = new THREE.Quaternion();
+	var some_scale = new THREE.Vector3();	
+	
+	var default_scale = new THREE.Vector3(1, 1, 1);
 		
-	// On every frame do the following:
+	var sound = new Sound("./three/sound.mp3");	
+	
+function getPosition(id) {
+	marker.setFromArray(tmp);
+	new_matrix.extractRotation(marker);
+	new_matrix.multiply(rotation_matrixes[id])
+	new_matrix.setPosition( (new THREE.Vector4(0, 0, shift)).applyMatrix4( marker ) );
+}
+	
 function tick() {
 
 	if (is_loaded == 0) {
 		return;
 	}
-     
+
 	var date = new Date();
 	var current_time = date.getTime();
 	
 	//console.log(current_time - last_tick);
-			
-	if (steps) {
+	
+	if (steps > 0) {
+		mesh.visible = 1;
 		var passed = current_time - last_tick;
 		if (passed > steps) {
 			passed = steps;
-			steps = 0;
 		}
+		
+		c_position.x += d_position.x * passed; 
+		c_position.y += d_position.y * passed; 
+		c_position.z += d_position.z * passed;
+		
+		c_quaternion.slerp(end_quaternion, 1. * passed / steps);		
+		
 		steps -= passed;
-		for (var i = 0; i < 16; ++i) {
-			current_position.elements[i] += d.elements[i] * passed;
-		}
 		
-		console.log("POS");
-		console.log(current_position.elements);
-		
-		model.matrix.elements.set(current_position.elements);
+		model.matrix.compose(c_position, c_quaternion, default_scale);//elements.set(current_position.elements);
 		model.matrixWorldNeedsUpdate = true;
 	}
 	
 	last_tick = current_time;
 	
-	var video_tick = 0;
-       
 	if (current_time - last_update >= 30) {
-		video_tick = 1;
 		
 		videoCanvas.getContext('2d').drawImage(video, 0, 0, video.width, video.height);
 		videoCanvas.changed = true;
-		videoTex.needsUpdate = true;
-	
+		videoTex.needsUpdate = true;	
 		last_update = current_time;
-	   
+		
 		var markerCount = detector.detectMarkerLite(raster, threshold);
-	  
-		var present = 0;
+		
+		var used = 0;
 		var current_indexes = new Array();
 		for (var i = 0; i < markerCount; ++i) {
 			var t = detector.getARCodeIndex(i);
 			for (var j = 0; j <= 4; ++j) {
 				if (t == ids[j]) {
-					current_indexes[i] = j;
+					current_indexes[used] = j;
+					++used;
 					break;
 				}
 			}
-			if (current_indexes[i] == last_marker_index) {
-				present = 1;
-			}
-		}  
-	  
-		var div = document.getElementById("textDiv");
-		div.textContent = "|" + last_marker_index + "|" + current_indexes + "|" + ids;
-	   
-		if (present == 0) { 
-		
-				if (current_time - last_with >= 200) {
-					if (last_marker_index != -1) {
-						mesh.visible = 0;				
-					}
-					last_marker_index = -1;
-					steps = 0;
-					
-					if (markerCount != 0) {
-						for (var i = 0; i <= 0; ++i) {	
-							var id = current_indexes[i];
-							last_marker_index = id;
-							last_with = current_time;
-							mesh.visible = true;
-							//alert("OK");
-							detector.getTransformMatrix(i, resultMat);
-							copyMarkerMatrix(resultMat, tmp);
-							
-							marker.setFromArray(tmp);
-							
-							var m1 = new THREE.Matrix4();
-							var new_pos = new THREE.Vector4(0, 0, shift);
-							new_pos.applyMatrix4( marker );
-							
-							var new_matrix = new THREE.Matrix4();
-							new_matrix.extractRotation(marker);							
-							new_matrix.multiply(rotation_matrixes[id]);
-							new_matrix.setPosition(new_pos);							
-							
-							d = new THREE.Matrix4();
-							
-							steps = 100;
-							for (var j = 0; j < 16; ++j) {
-								d.elements[j] = (new_matrix.elements[j] - current_position.elements[j]) / steps;
-							}														
-						}					
-					}
-				}
-				
-		} else {
-		
-			for (var i = 0; i < markerCount; ++i) {
-						if (current_indexes[i] == last_marker_index) {
-							last_with = current_time;
-							//last_marker_index = j;
-							//meshes[j].visible = true;
-							//alert("OK");
-							detector.getTransformMatrix(i, resultMat);
-							copyMarkerMatrix(resultMat, tmp);	
-					
-							marker.setFromArray(tmp);
-							
-							var m1 = new THREE.Matrix4();
-							var new_pos = new THREE.Vector4(0, 0, shift);
-							new_pos.applyMatrix4( marker );
-														
-							var new_matrix = new THREE.Matrix4();
-							new_matrix.extractRotation(marker);							
-							new_matrix.multiply(rotation_matrixes[last_marker_index]);
-							new_matrix.setPosition(new_pos);
-							
-							d = new THREE.Matrix4();
-							
-							steps = 100;
-							for (var j = 0; j < 16; ++j) {
-								d.elements[j] = (new_matrix.elements[j] - current_position.elements[j]) / steps;
-							}
-							
-							break;
-						}
-					}
-		
 		}
 		
+		if (used == 0) {
+			if (mesh.visible && current_time - last_with >= 500) {
+				mesh.visible = 0;
+				steps = 0;
+				
+				sound.stop();
+			}			
+		} else {
+			
+			sum_position.set(0, 0, 0);
+			sum_quaternion.set(0, 0, 0, 0);
+			
+			for (var i = 0; i < used; ++i) {
+				detector.getTransformMatrix(i, resultMat);
+				copyMarkerMatrix(resultMat, tmp);
+				
+				getPosition(current_indexes[i]);
+				
+				new_matrix.decompose(some_position, some_quaternion, some_scale);
+				
+				sum_position.x += some_position.x; sum_position.y += some_position.y; sum_position.z += some_position.z;
+				if (i == 0) {
+					sum_quaternion = some_quaternion;
+				} else {
+					sum_quaternion.slerp(some_quaternion, 0.5);
+				}
+			}
+			
+			if (current_time - last_with >= 500) { 
+				sound.start();
+				
+				steps = 0;
+				c_position.x = sum_position.x / used; c_position.y = sum_position.y / used; c_position.z = sum_position.z / used;
+				c_quaternion.x = sum_quaternion.x / used; c_quaternion.y = sum_quaternion.y / used; c_quaternion.z = sum_quaternion.z / used; c_quaternion.w = sum_quaternion.w / used;
+			} else {
+				steps = 150;
+				
+				d_position.x = (sum_position.x / used - c_position.x) / steps;
+				d_position.y = (sum_position.y / used - c_position.y) / steps;
+				d_position.z = (sum_position.z / used - c_position.z) / steps;
+				
+				end_quaternion.x = sum_quaternion.x;
+				end_quaternion.y = sum_quaternion.y;
+				end_quaternion.z = sum_quaternion.z;
+				end_quaternion.w = sum_quaternion.w;
+			}
+			
+			last_with = current_time;
+		}
 	}
 	  
-  renderer.autoClear = false;
-  renderer.clear();
-  renderer.render(videoScene, videoCam);
-  renderer.render(scene, camera);
+	renderer.autoClear = false;
+	renderer.clear();
+	renderer.render(videoScene, videoCam);
+	renderer.render(scene, camera);
 }
 
-setInterval(tick, 15);
-}
-	
-	
+setInterval(tick, 15);	
 
+}
+
+	function copyMarkerMatrix(arMat, glMat) {
+		glMat[0] = arMat.m00;
+		glMat[1] = -arMat.m10;
+		glMat[2] = arMat.m20;
+		glMat[3] = 0;
+		glMat[4] = arMat.m01;
+		glMat[5] = -arMat.m11;
+		glMat[6] = arMat.m21;
+		glMat[7] = 0;
+		glMat[8] = -arMat.m02;
+		glMat[9] = arMat.m12;
+		glMat[10] = -arMat.m22;
+		glMat[11] = 0;
+		glMat[12] = arMat.m03;
+		glMat[13] = -arMat.m13;
+		glMat[14] = arMat.m23;
+		glMat[15] = 1;
+	}
+	
+	THREE.Matrix4.prototype.setFromArray = function(m) {
+		return this.set(
+			m[0], m[4], m[8], m[12],
+			m[1], m[5], m[9], m[13],
+			m[2], m[6], m[10], m[14],
+			m[3], m[7], m[11], m[15]
+		);
+	};
+	
+	function sign(x) {
+		return typeof x === 'number' ? x ? x < 0 ? -1 : 1 : x === x ? 0 : NaN : NaN;
+	}
+	
+	
+	function Sound(source)
+	{
+		this.source=source;
+		this.loop=1;
+		var son;
+		this.son=son;
+		
+
+		this.son = document.createElement("audio");
+		this.son.setAttribute("type","audio/mp3");
+		this.son.setAttribute("src",this.source);
+		this.son.setAttribute("hidden","true");
+		this.son.setAttribute("autoplay","false");
+		this.son.setAttribute("id","audio");			
+		document.body.appendChild(this.son);
+		
+		var element = document.getElementById("audio");
+		
+		//var volume = this.son.volume;
+		
+		element.volume = 0;		
+		element.loop = true;
+		element.pause();
+		//element.play();
+		element.currentTime  = 300;
+		
+		var is_stop = 0, stop_var = -1, is_start = 0, start_var = -1;
+		
+		this.up = function() {
+					// Reduce volume by 0.05 as long as it is above 0
+					// This works as long as you start with a multiple of 0.05!
+					
+					if (!is_start) {
+						clearInterval(start_var);
+						return;
+					}
+					
+					console.log("UP " + element.volume + " " + is_start + " " + is_stop + " " + element.currentTime + " " + element.ended);
+					
+					if (element.volume <= 1 - 0.05) {
+					  element.volume += 0.05;
+					} else {
+						console.log("UP ELSE " + element.volume);
+						element.volume = 1;
+						clearInterval(start_var);
+						is_start = 0;
+						return;
+					}
+				}					
+				
+		
+		this.start=function()
+		{	
+			is_stop = 0;
+			is_start = 1;
+			
+			element.currentTime = 300.0;			
+			element.play();
+			element.currentTime = 300.0;
+			var interval = 10000 / (1 / 0.05);
+			clearInterval(start_var);
+			start_var = setInterval( this.up, interval);
+		}
+		
+		this.down = function() {
+					// Reduce volume by 0.05 as long as it is above 0
+					// This works as long as you start with a multiple of 0.05!
+					
+					if (!is_stop) {
+						clearInterval(stop_var);
+					}
+					
+					console.log("DOWN " + element.volume + " " + is_start + " " + is_stop + " " + element.currentTime + " " + element.ended);
+					
+					if (element.volume >= 0 + 0.05) {
+						element.volume -= 0.05;
+					} else {
+						element.volume = 0;
+						element.pause()
+						//element.currentTime = 0
+						clearInterval(stop_var);
+						is_stop = 0;
+						return;
+					}
+				}
+		
+		this.stop = function() {
+			var interval = 5000 / (1 / 0.05);
+			
+			is_start = 0
+			is_stop = 1;
+			
+			clearInterval(stop_var);
+			stop_var = setInterval(this.down, interval);
+		}
+		
+		this.remove=function() {
+			document.body.removeChild(this.son);
+		}
+	}
 
 </script>
-
-
  
-</body>
-  
+</body>  
 </html>
