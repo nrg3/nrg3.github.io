@@ -1,9 +1,31 @@
 <html>
 <head>
-  <title>=*</title>
+
+	<title>=*</title>
+	
+	<style type="text/css" media="all">
+
+	html, body	{height:100%; margin:0; padding:0;}
+
+	#wrapper {display:table;height:100%;width:100%;}
+	#cell {display:table-cell; vertical-align:middle;height:100%;width:100%;}
+
+	</style>
+  
 </head>
 
 <body>
+
+<div id="wrapper">
+	<div id="cell" align = "center">
+	
+		<div id="load_div"> Loading... </div>
+				
+		<div id="content" align = "center">			
+		</div>
+		
+	</div>
+</div>
 
 <script src="three/three.min.js"></script>
 <script src="jsar/JSARToolKit.min.js"></script>
@@ -52,6 +74,11 @@ getUserMedia({'video': true},
   }
 );
 
+
+
+var is_loaded = 0;
+var renderer;
+
   window.onload = function() {
     document.body.appendChild(video);
 
@@ -65,7 +92,7 @@ getUserMedia({'video': true},
     debugCanvas.id = 'debugCanvas';
     debugCanvas.width = 640;
     debugCanvas.height = 480;
-    document.body.appendChild(debugCanvas);
+    //document.body.appendChild(debugCanvas);
 
     var videoCanvas = document.createElement('canvas');
 	videoCanvas.id = 'videoCanvas';
@@ -81,12 +108,9 @@ getUserMedia({'video': true},
     var resultMat = new NyARTransMatResult();
     var tmp = new Float32Array(16);
 
-    var renderer = new THREE.WebGLRenderer();
+    renderer = new THREE.WebGLRenderer();
     renderer.setSize(640, 480);
-
-    var glCanvas = renderer.domElement;
-    var s = glCanvas.style;
-    document.body.appendChild(glCanvas);
+	renderer.setClearColor(0xffffff, 1);
 
     var scene = new THREE.Scene();
     var light = new THREE.PointLight(0xffffff);
@@ -125,8 +149,6 @@ getUserMedia({'video': true},
 	//var models = new Array();
 	//var meshes = new Array();
 
-
-var is_loaded = 0;
 var loader = new THREE.JSONLoader();
 
 var createMesh = function( geometry, materials )
@@ -144,12 +166,7 @@ var createMesh = function( geometry, materials )
 	
 	is_loaded = 1;
 }; 
-loader.load( "./model/mesh.js", createMesh );
-//while (is_loaded == 0) {
-	
-//}
-	
-	    
+
     // Next we need to make the Three.js camera use the FLARParam matrix.
     param.copyCameraMatrix(tmp, 10, 10000);
     camera.projectionMatrix.setFromArray(tmp);
@@ -199,7 +216,8 @@ loader.load( "./model/mesh.js", createMesh );
 	
 	var default_scale = new THREE.Vector3(1, 1, 1);
 		
-	var sound = new Sound("./three/sound.mp3");	
+	var sound = new Sound("./three/sound2.ogg");	
+	loader.load( "./model/mesh.js", createMesh );	
 	
 function getPosition(id) {
 	marker.setFromArray(tmp);
@@ -210,7 +228,22 @@ function getPosition(id) {
 	
 function tick() {
 
-	if (is_loaded == 0) {
+	if (is_loaded == 1) {
+		var objTo = document.getElementById("load_div");
+		objTo.parentNode.removeChild(objTo);
+		
+		var obj = document.createElement("input");
+		obj.setAttribute("type", "button");
+		obj.setAttribute("value", ";)");
+		obj.setAttribute("id", "button3");
+		obj.setAttribute("onclick", "foo()");
+		
+		var objTo = document.getElementById("content");	
+		objTo.appendChild(obj);
+		is_loaded = 2;
+	}
+	
+	if (is_loaded != 3) {
 		return;
 	}
 
@@ -365,7 +398,7 @@ setInterval(tick, 15);
 		
 
 		this.son = document.createElement("audio");
-		this.son.setAttribute("type","audio/mp3");
+		this.son.setAttribute("type","audio/ogg");
 		this.son.setAttribute("src",this.source);
 		this.son.setAttribute("hidden","true");
 		this.son.setAttribute("autoplay","false");
@@ -380,7 +413,6 @@ setInterval(tick, 15);
 		element.loop = true;
 		element.pause();
 		//element.play();
-		element.currentTime  = 300;
 		
 		var is_stop = 0, stop_var = -1, is_start = 0, start_var = -1;
 		
@@ -393,12 +425,12 @@ setInterval(tick, 15);
 						return;
 					}
 					
-					console.log("UP " + element.volume + " " + is_start + " " + is_stop + " " + element.currentTime + " " + element.ended);
+					//console.log("UP " + element.volume + " " + is_start + " " + is_stop + " " + element.currentTime + " " + element.ended);
 					
 					if (element.volume <= 1 - 0.05) {
 					  element.volume += 0.05;
 					} else {
-						console.log("UP ELSE " + element.volume);
+						//console.log("UP ELSE " + element.volume);
 						element.volume = 1;
 						clearInterval(start_var);
 						is_start = 0;
@@ -412,9 +444,8 @@ setInterval(tick, 15);
 			is_stop = 0;
 			is_start = 1;
 			
-			element.currentTime = 300.0;			
 			element.play();
-			element.currentTime = 300.0;
+			
 			var interval = 10000 / (1 / 0.05);
 			clearInterval(start_var);
 			start_var = setInterval( this.up, interval);
@@ -428,7 +459,7 @@ setInterval(tick, 15);
 						clearInterval(stop_var);
 					}
 					
-					console.log("DOWN " + element.volume + " " + is_start + " " + is_stop + " " + element.currentTime + " " + element.ended);
+					//console.log("DOWN " + element.volume + " " + is_start + " " + is_stop + " " + element.currentTime + " " + element.ended);
 					
 					if (element.volume >= 0 + 0.05) {
 						element.volume -= 0.05;
@@ -455,6 +486,17 @@ setInterval(tick, 15);
 		this.remove=function() {
 			document.body.removeChild(this.son);
 		}
+	}
+	
+	function foo() {
+		is_loaded = 3;
+		var objTo = document.getElementById("button3");
+		objTo.parentNode.removeChild(objTo);
+		
+		var glCanvas = renderer.domElement;
+		var s = glCanvas.style;	
+		var objTo = document.getElementById("content");	
+		objTo.appendChild(glCanvas);
 	}
 
 </script>
