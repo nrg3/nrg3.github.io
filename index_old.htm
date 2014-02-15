@@ -223,11 +223,7 @@ function getPosition(id) {
 	marker.setFromArray(tmp);
 	new_matrix.extractRotation(marker);
 	new_matrix.multiply(rotation_matrixes[id])
-	if (id != 4) {
-		new_matrix.setPosition( (new THREE.Vector4(0, 0, shift)).applyMatrix4( marker ) );
-	} else {
-		new_matrix.setPosition( (new THREE.Vector4(0, 0, 1.1 * shift)).applyMatrix4( marker ) );
-	}
+	new_matrix.setPosition( (new THREE.Vector4(0, 0, shift)).applyMatrix4( marker ) );
 }
 	
 function tick() {
@@ -431,8 +427,8 @@ setInterval(tick, 15);
 					
 					//console.log("UP " + element.volume + " " + is_start + " " + is_stop + " " + element.currentTime + " " + element.ended);
 					
-					if (element.volume <= 1 - 0.025) {
-					  element.volume += 0.025;
+					if (element.volume <= 1 - 0.05) {
+					  element.volume += 0.05;
 					} else {
 						//console.log("UP ELSE " + element.volume);
 						element.volume = 1;
@@ -450,7 +446,7 @@ setInterval(tick, 15);
 			
 			element.play();
 			
-			var interval = 10000 / (1 / 0.025);
+			var interval = 10000 / (1 / 0.05);
 			clearInterval(start_var);
 			start_var = setInterval( this.up, interval);
 		}
@@ -465,8 +461,8 @@ setInterval(tick, 15);
 					
 					//console.log("DOWN " + element.volume + " " + is_start + " " + is_stop + " " + element.currentTime + " " + element.ended);
 					
-					if (element.volume >= 0 + 0.025) {
-						element.volume -= 0.025;
+					if (element.volume >= 0 + 0.05) {
+						element.volume -= 0.05;
 					} else {
 						element.volume = 0;
 						element.pause()
@@ -478,7 +474,7 @@ setInterval(tick, 15);
 				}
 		
 		this.stop = function() {
-			var interval = 5000 / (1 / 0.025);
+			var interval = 5000 / (1 / 0.05);
 			
 			is_start = 0
 			is_stop = 1;
