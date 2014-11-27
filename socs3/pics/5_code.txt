@@ -1,0 +1,30 @@
+(*5*)
+GetDistanceMatrix = Function[graph,
+   Block[{n = Length[graph], result, i, j, k},
+    result = 
+     Table[If[graph[[i]][[j]] == 1, 1, If[i == j, 0, Infinity]], {i, 
+       n}, {j, n}];
+    For[k = 1, k <= n, ++k,
+     For[i = 1, i <= n, ++i,
+       For[j = 1, j <= n, ++j,
+         If[result[[i]][[j]] > result[[i]][[k]] + result[[k]][[j]],
+           result[[i]][[j]] = result[[i]][[k]] + result[[k]][[j]];];
+         ];
+       ];
+     ];
+    result
+    ]
+   ];
+
+GetAveragePathLength = Function[distanceMatrix,
+   Block[{n = Length[distanceMatrix], sum},
+    sum = 
+     Sum[distanceMatrix[[i]][[j]], {i, n}, {j, i - 1}] + 
+      Sum[distanceMatrix[[i]][[j]], {i, n}, {j, i + 1, n}];
+    sum / n /(n - 1)
+    ]
+   ];
+
+GetDiameter = Function[distanceMatrix,
+   Max[distanceMatrix]
+   ];

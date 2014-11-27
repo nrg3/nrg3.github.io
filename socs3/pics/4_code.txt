@@ -1,0 +1,33 @@
+(*4*)
+ReadMatlabMatrix = Function[path,
+   Block[{rawStr, array, converted},
+    rawStr = Import[path];
+    array = StringSplit[rawStr, {"[", "]"}][[2]];
+    converted = StringSplit[array, ";"];
+    converted = Drop[converted, -1];
+    converted = 
+     Map[(Map[(FromDigits[StringTrim[#]]) &, StringSplit[#, ","]]) &, 
+      converted];
+    converted
+    ]
+   ];
+
+CalculateClusteringCoefficient = Function[graph,
+   Block[{triangles, i, j, z, connectedTriples, k},
+    triangles = 0;
+    For[i = 1, i <= Length[graph], ++i,
+     For[j = i + 1, j <= Length[graph], ++j,
+       For[z = j + 1, z <= Length[graph], ++z,
+         triangles += 
+           graph[[i]][[j]] * graph[[j]][[z]] * graph[[z]][[i]];
+         ];
+       ];
+     ];
+    connectedTriples = 0;
+    For[ i = 1, i <= Length[graph], ++i,
+     k = Sum[graph[[i]][[j]], {j, 1, Length[graph]}];
+     connectedTriples += k * (k - 1)/2;
+     ];
+    3*triangles / connectedTriples
+    ]
+   ];
