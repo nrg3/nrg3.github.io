@@ -7,24 +7,24 @@ BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Tuesday, 13:00, 14:00, MS.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
 DTSTAMP:20151005T120000Z
-DTSTART:20151006T120000Z
-DTEND:20151006T130000Z
+DTSTART:20151006T110000Z
+DTEND:20151006T120000Z
 LOCATION:MS.03
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Tuesday, 13:00, 14:00, MS.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
 DTSTAMP:20151005T120000Z
-DTSTART:20151013T120000Z
-DTEND:20151013T130000Z
+DTSTART:20151013T110000Z
+DTEND:20151013T120000Z
 LOCATION:MS.03
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Tuesday, 13:00, 14:00, MS.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
 DTSTAMP:20151005T120000Z
-DTSTART:20151020T120000Z
-DTEND:20151020T130000Z
+DTSTART:20151020T110000Z
+DTEND:20151020T120000Z
 LOCATION:MS.03
 END:VEVENT
 BEGIN:VEVENT
@@ -87,24 +87,24 @@ BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Wednesday, 10:00, 11:00, MS.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
 DTSTAMP:20151005T120000Z
-DTSTART:20151007T090000Z
-DTEND:20151007T100000Z
+DTSTART:20151007T080000Z
+DTEND:20151007T090000Z
 LOCATION:MS.03
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Wednesday, 10:00, 11:00, MS.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
 DTSTAMP:20151005T120000Z
-DTSTART:20151014T090000Z
-DTEND:20151014T100000Z
+DTSTART:20151014T080000Z
+DTEND:20151014T090000Z
 LOCATION:MS.03
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Wednesday, 10:00, 11:00, MS.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
 DTSTAMP:20151005T120000Z
-DTSTART:20151021T090000Z
-DTEND:20151021T100000Z
+DTSTART:20151021T080000Z
+DTEND:20151021T090000Z
 LOCATION:MS.03
 END:VEVENT
 BEGIN:VEVENT
@@ -167,16 +167,16 @@ BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff =  ; Code = MA398S optional; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398S optional, MA398 Matrix Analysis and Algorithms, Thursday, 10:00, 11:00, MA_B1.01, 2-10,  , -Board-Black,  }
 DTSTAMP:20151005T120000Z
-DTSTART:20151015T090000Z
-DTEND:20151015T100000Z
+DTSTART:20151015T080000Z
+DTEND:20151015T090000Z
 LOCATION:MA_B1.01
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff =  ; Code = MA398S optional; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398S optional, MA398 Matrix Analysis and Algorithms, Thursday, 10:00, 11:00, MA_B1.01, 2-10,  , -Board-Black,  }
 DTSTAMP:20151005T120000Z
-DTSTART:20151022T090000Z
-DTEND:20151022T100000Z
+DTSTART:20151022T080000Z
+DTEND:20151022T090000Z
 LOCATION:MA_B1.01
 END:VEVENT
 BEGIN:VEVENT
@@ -239,24 +239,24 @@ BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Thursday, 16:00, 17:00, MS.B3.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
 DTSTAMP:20151005T120000Z
-DTSTART:20151008T150000Z
-DTEND:20151008T160000Z
+DTSTART:20151008T140000Z
+DTEND:20151008T150000Z
 LOCATION:MS.B3.03
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Thursday, 16:00, 17:00, MS.B3.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
 DTSTAMP:20151005T120000Z
-DTSTART:20151015T150000Z
-DTEND:20151015T160000Z
+DTSTART:20151015T140000Z
+DTEND:20151015T150000Z
 LOCATION:MS.B3.03
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Thursday, 16:00, 17:00, MS.B3.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
 DTSTAMP:20151005T120000Z
-DTSTART:20151022T150000Z
-DTEND:20151022T160000Z
+DTSTART:20151022T140000Z
+DTEND:20151022T150000Z
 LOCATION:MS.B3.03
 END:VEVENT
 BEGIN:VEVENT

@@ -7,24 +7,24 @@ BEGIN:VEVENT
 SUMMARY:ST910 - An Invitation to Graduate Probability
 DESCRIPTION:Staff = Kendall.W.S; Code = ST910L; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {ST910L, ST910 An Invitation to Graduate Probability, Tuesday, 10:00, 11:00, H0.58, 1-10,  , -Av-Dvpr/Lcd/Plasma, Kendall.W.S}
 DTSTAMP:20151005T120000Z
-DTSTART:20151006T090000Z
-DTEND:20151006T100000Z
+DTSTART:20151006T080000Z
+DTEND:20151006T090000Z
 LOCATION:H0.58
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ST910 - An Invitation to Graduate Probability
 DESCRIPTION:Staff = Kendall.W.S; Code = ST910L; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {ST910L, ST910 An Invitation to Graduate Probability, Tuesday, 10:00, 11:00, H0.58, 1-10,  , -Av-Dvpr/Lcd/Plasma, Kendall.W.S}
 DTSTAMP:20151005T120000Z
-DTSTART:20151013T090000Z
-DTEND:20151013T100000Z
+DTSTART:20151013T080000Z
+DTEND:20151013T090000Z
 LOCATION:H0.58
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ST910 - An Invitation to Graduate Probability
 DESCRIPTION:Staff = Kendall.W.S; Code = ST910L; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {ST910L, ST910 An Invitation to Graduate Probability, Tuesday, 10:00, 11:00, H0.58, 1-10,  , -Av-Dvpr/Lcd/Plasma, Kendall.W.S}
 DTSTAMP:20151005T120000Z
-DTSTART:20151020T090000Z
-DTEND:20151020T100000Z
+DTSTART:20151020T080000Z
+DTEND:20151020T090000Z
 LOCATION:H0.58
 END:VEVENT
 BEGIN:VEVENT
@@ -87,24 +87,24 @@ BEGIN:VEVENT
 SUMMARY:ST910 - An Invitation to Graduate Probability
 DESCRIPTION:Staff = Kendall.W.S; Code = ST910L; Comments =  ; Suitabilities = -Board-Black; Raw line = {ST910L, ST910 An Invitation to Graduate Probability, Wednesday, 9:00, 10:00, MS.05, 1-10,  , -Board-Black, Kendall.W.S}
 DTSTAMP:20151005T120000Z
-DTSTART:20151007T080000Z
-DTEND:20151007T090000Z
+DTSTART:20151007T070000Z
+DTEND:20151007T080000Z
 LOCATION:MS.05
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ST910 - An Invitation to Graduate Probability
 DESCRIPTION:Staff = Kendall.W.S; Code = ST910L; Comments =  ; Suitabilities = -Board-Black; Raw line = {ST910L, ST910 An Invitation to Graduate Probability, Wednesday, 9:00, 10:00, MS.05, 1-10,  , -Board-Black, Kendall.W.S}
 DTSTAMP:20151005T120000Z
-DTSTART:20151014T080000Z
-DTEND:20151014T090000Z
+DTSTART:20151014T070000Z
+DTEND:20151014T080000Z
 LOCATION:MS.05
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ST910 - An Invitation to Graduate Probability
 DESCRIPTION:Staff = Kendall.W.S; Code = ST910L; Comments =  ; Suitabilities = -Board-Black; Raw line = {ST910L, ST910 An Invitation to Graduate Probability, Wednesday, 9:00, 10:00, MS.05, 1-10,  , -Board-Black, Kendall.W.S}
 DTSTAMP:20151005T120000Z
-DTSTART:20151021T080000Z
-DTEND:20151021T090000Z
+DTSTART:20151021T070000Z
+DTEND:20151021T080000Z
 LOCATION:MS.05
 END:VEVENT
 BEGIN:VEVENT
@@ -167,8 +167,8 @@ BEGIN:VEVENT
 SUMMARY:ST910 - An Invitation to Graduate Probability
 DESCRIPTION:Staff = Kendall.W.S; Code = ST910Lwk1; Comments =  ; Suitabilities = -Board-Black; Raw line = {ST910Lwk1, ST910 An Invitation to Graduate Probability, Wednesday, 11:00, 12:00, B2.03 (Sci Conc), 1,  , -Board-Black, Kendall.W.S}
 DTSTAMP:20151005T120000Z
-DTSTART:20151007T100000Z
-DTEND:20151007T110000Z
+DTSTART:20151007T090000Z
+DTEND:20151007T100000Z
 LOCATION:B2.03 (Sci Conc)
 END:VEVENT
 BEGIN:VEVENT
