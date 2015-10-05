@@ -1,0 +1,302 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hand_made//me//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME;VALUE=TEXT:CS256 - Functional Programming
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256L; Comments =  ; Suitabilities =  ; Raw line = {CS256L, CS256 Functional Programming, Monday, 10:00, 11:00, CS_CS1.01, 2-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151012T100000Z
+DTEND:20151012T110000Z
+LOCATION:CS_CS1.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256L; Comments =  ; Suitabilities =  ; Raw line = {CS256L, CS256 Functional Programming, Monday, 10:00, 11:00, CS_CS1.01, 2-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151019T100000Z
+DTEND:20151019T110000Z
+LOCATION:CS_CS1.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256L; Comments =  ; Suitabilities =  ; Raw line = {CS256L, CS256 Functional Programming, Monday, 10:00, 11:00, CS_CS1.01, 2-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151026T100000Z
+DTEND:20151026T110000Z
+LOCATION:CS_CS1.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256L; Comments =  ; Suitabilities =  ; Raw line = {CS256L, CS256 Functional Programming, Monday, 10:00, 11:00, CS_CS1.01, 2-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151102T100000Z
+DTEND:20151102T110000Z
+LOCATION:CS_CS1.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256L; Comments =  ; Suitabilities =  ; Raw line = {CS256L, CS256 Functional Programming, Monday, 10:00, 11:00, CS_CS1.01, 2-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151109T100000Z
+DTEND:20151109T110000Z
+LOCATION:CS_CS1.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256L; Comments =  ; Suitabilities =  ; Raw line = {CS256L, CS256 Functional Programming, Monday, 10:00, 11:00, CS_CS1.01, 2-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151116T100000Z
+DTEND:20151116T110000Z
+LOCATION:CS_CS1.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256L; Comments =  ; Suitabilities =  ; Raw line = {CS256L, CS256 Functional Programming, Monday, 10:00, 11:00, CS_CS1.01, 2-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151123T100000Z
+DTEND:20151123T110000Z
+LOCATION:CS_CS1.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256L; Comments =  ; Suitabilities =  ; Raw line = {CS256L, CS256 Functional Programming, Monday, 10:00, 11:00, CS_CS1.01, 2-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151130T100000Z
+DTEND:20151130T110000Z
+LOCATION:CS_CS1.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256L; Comments =  ; Suitabilities =  ; Raw line = {CS256L, CS256 Functional Programming, Monday, 10:00, 11:00, CS_CS1.01, 2-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151207T100000Z
+DTEND:20151207T110000Z
+LOCATION:CS_CS1.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256S; Comments =  ; Suitabilities =  ; Raw line = {CS256S, CS256 Functional Programming, Monday, 16:00, 17:00, CS_CS0.01, 2-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151012T160000Z
+DTEND:20151012T170000Z
+LOCATION:CS_CS0.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256S; Comments =  ; Suitabilities =  ; Raw line = {CS256S, CS256 Functional Programming, Monday, 16:00, 17:00, CS_CS0.01, 2-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151019T160000Z
+DTEND:20151019T170000Z
+LOCATION:CS_CS0.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256S; Comments =  ; Suitabilities =  ; Raw line = {CS256S, CS256 Functional Programming, Monday, 16:00, 17:00, CS_CS0.01, 2-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151026T160000Z
+DTEND:20151026T170000Z
+LOCATION:CS_CS0.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256S; Comments =  ; Suitabilities =  ; Raw line = {CS256S, CS256 Functional Programming, Monday, 16:00, 17:00, CS_CS0.01, 2-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151102T160000Z
+DTEND:20151102T170000Z
+LOCATION:CS_CS0.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256S; Comments =  ; Suitabilities =  ; Raw line = {CS256S, CS256 Functional Programming, Monday, 16:00, 17:00, CS_CS0.01, 2-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151109T160000Z
+DTEND:20151109T170000Z
+LOCATION:CS_CS0.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256S; Comments =  ; Suitabilities =  ; Raw line = {CS256S, CS256 Functional Programming, Monday, 16:00, 17:00, CS_CS0.01, 2-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151116T160000Z
+DTEND:20151116T170000Z
+LOCATION:CS_CS0.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256S; Comments =  ; Suitabilities =  ; Raw line = {CS256S, CS256 Functional Programming, Monday, 16:00, 17:00, CS_CS0.01, 2-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151123T160000Z
+DTEND:20151123T170000Z
+LOCATION:CS_CS0.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256S; Comments =  ; Suitabilities =  ; Raw line = {CS256S, CS256 Functional Programming, Monday, 16:00, 17:00, CS_CS0.01, 2-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151130T160000Z
+DTEND:20151130T170000Z
+LOCATION:CS_CS0.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256S; Comments =  ; Suitabilities =  ; Raw line = {CS256S, CS256 Functional Programming, Monday, 16:00, 17:00, CS_CS0.01, 2-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151207T160000Z
+DTEND:20151207T170000Z
+LOCATION:CS_CS0.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256L; Comments =  ; Suitabilities =  ; Raw line = {CS256L, CS256 Functional Programming, Tuesday, 15:00, 16:00, CS_CS1.01, 1-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151006T150000Z
+DTEND:20151006T160000Z
+LOCATION:CS_CS1.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256L; Comments =  ; Suitabilities =  ; Raw line = {CS256L, CS256 Functional Programming, Tuesday, 15:00, 16:00, CS_CS1.01, 1-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151013T150000Z
+DTEND:20151013T160000Z
+LOCATION:CS_CS1.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256L; Comments =  ; Suitabilities =  ; Raw line = {CS256L, CS256 Functional Programming, Tuesday, 15:00, 16:00, CS_CS1.01, 1-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151020T150000Z
+DTEND:20151020T160000Z
+LOCATION:CS_CS1.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256L; Comments =  ; Suitabilities =  ; Raw line = {CS256L, CS256 Functional Programming, Tuesday, 15:00, 16:00, CS_CS1.01, 1-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151027T150000Z
+DTEND:20151027T160000Z
+LOCATION:CS_CS1.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256L; Comments =  ; Suitabilities =  ; Raw line = {CS256L, CS256 Functional Programming, Tuesday, 15:00, 16:00, CS_CS1.01, 1-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151103T150000Z
+DTEND:20151103T160000Z
+LOCATION:CS_CS1.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256L; Comments =  ; Suitabilities =  ; Raw line = {CS256L, CS256 Functional Programming, Tuesday, 15:00, 16:00, CS_CS1.01, 1-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151110T150000Z
+DTEND:20151110T160000Z
+LOCATION:CS_CS1.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256L; Comments =  ; Suitabilities =  ; Raw line = {CS256L, CS256 Functional Programming, Tuesday, 15:00, 16:00, CS_CS1.01, 1-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151117T150000Z
+DTEND:20151117T160000Z
+LOCATION:CS_CS1.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256L; Comments =  ; Suitabilities =  ; Raw line = {CS256L, CS256 Functional Programming, Tuesday, 15:00, 16:00, CS_CS1.01, 1-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151124T150000Z
+DTEND:20151124T160000Z
+LOCATION:CS_CS1.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256L; Comments =  ; Suitabilities =  ; Raw line = {CS256L, CS256 Functional Programming, Tuesday, 15:00, 16:00, CS_CS1.01, 1-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151201T150000Z
+DTEND:20151201T160000Z
+LOCATION:CS_CS1.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256L; Comments =  ; Suitabilities =  ; Raw line = {CS256L, CS256 Functional Programming, Tuesday, 15:00, 16:00, CS_CS1.01, 1-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151208T150000Z
+DTEND:20151208T160000Z
+LOCATION:CS_CS1.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256S; Comments =  ; Suitabilities =  ; Raw line = {CS256S, CS256 Functional Programming, Tuesday, 16:00, 17:00, CS_CS0.01, 2-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151013T160000Z
+DTEND:20151013T170000Z
+LOCATION:CS_CS0.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256S; Comments =  ; Suitabilities =  ; Raw line = {CS256S, CS256 Functional Programming, Tuesday, 16:00, 17:00, CS_CS0.01, 2-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151020T160000Z
+DTEND:20151020T170000Z
+LOCATION:CS_CS0.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256S; Comments =  ; Suitabilities =  ; Raw line = {CS256S, CS256 Functional Programming, Tuesday, 16:00, 17:00, CS_CS0.01, 2-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151027T160000Z
+DTEND:20151027T170000Z
+LOCATION:CS_CS0.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256S; Comments =  ; Suitabilities =  ; Raw line = {CS256S, CS256 Functional Programming, Tuesday, 16:00, 17:00, CS_CS0.01, 2-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151103T160000Z
+DTEND:20151103T170000Z
+LOCATION:CS_CS0.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256S; Comments =  ; Suitabilities =  ; Raw line = {CS256S, CS256 Functional Programming, Tuesday, 16:00, 17:00, CS_CS0.01, 2-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151110T160000Z
+DTEND:20151110T170000Z
+LOCATION:CS_CS0.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256S; Comments =  ; Suitabilities =  ; Raw line = {CS256S, CS256 Functional Programming, Tuesday, 16:00, 17:00, CS_CS0.01, 2-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151117T160000Z
+DTEND:20151117T170000Z
+LOCATION:CS_CS0.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256S; Comments =  ; Suitabilities =  ; Raw line = {CS256S, CS256 Functional Programming, Tuesday, 16:00, 17:00, CS_CS0.01, 2-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151124T160000Z
+DTEND:20151124T170000Z
+LOCATION:CS_CS0.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256S; Comments =  ; Suitabilities =  ; Raw line = {CS256S, CS256 Functional Programming, Tuesday, 16:00, 17:00, CS_CS0.01, 2-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151201T160000Z
+DTEND:20151201T170000Z
+LOCATION:CS_CS0.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS256 - Functional Programming
+DESCRIPTION:Staff = Matthews.S.G; Code = CS256S; Comments =  ; Suitabilities =  ; Raw line = {CS256S, CS256 Functional Programming, Tuesday, 16:00, 17:00, CS_CS0.01, 2-10,  ,  , Matthews.S.G}
+DTSTAMP:20151005T120000Z
+DTSTART:20151208T160000Z
+DTEND:20151208T170000Z
+LOCATION:CS_CS0.01
+END:VEVENT
+END:VCALENDAR
