@@ -7,304 +7,304 @@ BEGIN:VEVENT
 SUMMARY:CS918 - Natural Language Processing
 DESCRIPTION:Staff = Liakata.M.; Code = CS918S; Comments =  ; Suitabilities =  ; Raw line = {CS918S, CS918 Natural Language Processing, Monday, 15:00, 16:00, CS_CS1.01, 16-24,  ,  , Liakata.M.}
 DTSTAMP:20151005T120000Z
-DTSTART:20160118T150000Z
-DTEND:20160118T160000Z
+DTSTART:20160118T140000Z
+DTEND:20160118T150000Z
 LOCATION:CS_CS1.01
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS918 - Natural Language Processing
 DESCRIPTION:Staff = Liakata.M.; Code = CS918S; Comments =  ; Suitabilities =  ; Raw line = {CS918S, CS918 Natural Language Processing, Monday, 15:00, 16:00, CS_CS1.01, 16-24,  ,  , Liakata.M.}
+DTSTAMP:20151005T120000Z
+DTSTART:20160125T140000Z
+DTEND:20160125T150000Z
+LOCATION:CS_CS1.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS918 - Natural Language Processing
+DESCRIPTION:Staff = Liakata.M.; Code = CS918S; Comments =  ; Suitabilities =  ; Raw line = {CS918S, CS918 Natural Language Processing, Monday, 15:00, 16:00, CS_CS1.01, 16-24,  ,  , Liakata.M.}
+DTSTAMP:20151005T120000Z
+DTSTART:20160201T140000Z
+DTEND:20160201T150000Z
+LOCATION:CS_CS1.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS918 - Natural Language Processing
+DESCRIPTION:Staff = Liakata.M.; Code = CS918S; Comments =  ; Suitabilities =  ; Raw line = {CS918S, CS918 Natural Language Processing, Monday, 15:00, 16:00, CS_CS1.01, 16-24,  ,  , Liakata.M.}
+DTSTAMP:20151005T120000Z
+DTSTART:20160208T140000Z
+DTEND:20160208T150000Z
+LOCATION:CS_CS1.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS918 - Natural Language Processing
+DESCRIPTION:Staff = Liakata.M.; Code = CS918S; Comments =  ; Suitabilities =  ; Raw line = {CS918S, CS918 Natural Language Processing, Monday, 15:00, 16:00, CS_CS1.01, 16-24,  ,  , Liakata.M.}
+DTSTAMP:20151005T120000Z
+DTSTART:20160215T140000Z
+DTEND:20160215T150000Z
+LOCATION:CS_CS1.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS918 - Natural Language Processing
+DESCRIPTION:Staff = Liakata.M.; Code = CS918S; Comments =  ; Suitabilities =  ; Raw line = {CS918S, CS918 Natural Language Processing, Monday, 15:00, 16:00, CS_CS1.01, 16-24,  ,  , Liakata.M.}
+DTSTAMP:20151005T120000Z
+DTSTART:20160222T140000Z
+DTEND:20160222T150000Z
+LOCATION:CS_CS1.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS918 - Natural Language Processing
+DESCRIPTION:Staff = Liakata.M.; Code = CS918S; Comments =  ; Suitabilities =  ; Raw line = {CS918S, CS918 Natural Language Processing, Monday, 15:00, 16:00, CS_CS1.01, 16-24,  ,  , Liakata.M.}
+DTSTAMP:20151005T120000Z
+DTSTART:20160229T140000Z
+DTEND:20160229T150000Z
+LOCATION:CS_CS1.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS918 - Natural Language Processing
+DESCRIPTION:Staff = Liakata.M.; Code = CS918S; Comments =  ; Suitabilities =  ; Raw line = {CS918S, CS918 Natural Language Processing, Monday, 15:00, 16:00, CS_CS1.01, 16-24,  ,  , Liakata.M.}
+DTSTAMP:20151005T120000Z
+DTSTART:20160307T140000Z
+DTEND:20160307T150000Z
+LOCATION:CS_CS1.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS918 - Natural Language Processing
+DESCRIPTION:Staff = Liakata.M.; Code = CS918S; Comments =  ; Suitabilities =  ; Raw line = {CS918S, CS918 Natural Language Processing, Monday, 15:00, 16:00, CS_CS1.01, 16-24,  ,  , Liakata.M.}
+DTSTAMP:20151005T120000Z
+DTSTART:20160314T140000Z
+DTEND:20160314T150000Z
+LOCATION:CS_CS1.01
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS918 - Natural Language Processing
+DESCRIPTION:Staff = Liakata.M.; Code = CS918L; Comments =  ; Suitabilities =  ; Raw line = {CS918L, CS918 Natural Language Processing, Monday, 16:00, 17:00, LIB2, 15-24,  ,  , Liakata.M.}
+DTSTAMP:20151005T120000Z
+DTSTART:20160111T150000Z
+DTEND:20160111T160000Z
+LOCATION:LIB2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS918 - Natural Language Processing
+DESCRIPTION:Staff = Liakata.M.; Code = CS918L; Comments =  ; Suitabilities =  ; Raw line = {CS918L, CS918 Natural Language Processing, Monday, 16:00, 17:00, LIB2, 15-24,  ,  , Liakata.M.}
+DTSTAMP:20151005T120000Z
+DTSTART:20160118T150000Z
+DTEND:20160118T160000Z
+LOCATION:LIB2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CS918 - Natural Language Processing
+DESCRIPTION:Staff = Liakata.M.; Code = CS918L; Comments =  ; Suitabilities =  ; Raw line = {CS918L, CS918 Natural Language Processing, Monday, 16:00, 17:00, LIB2, 15-24,  ,  , Liakata.M.}
 DTSTAMP:20151005T120000Z
 DTSTART:20160125T150000Z
 DTEND:20160125T160000Z
-LOCATION:CS_CS1.01
+LOCATION:LIB2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS918 - Natural Language Processing
-DESCRIPTION:Staff = Liakata.M.; Code = CS918S; Comments =  ; Suitabilities =  ; Raw line = {CS918S, CS918 Natural Language Processing, Monday, 15:00, 16:00, CS_CS1.01, 16-24,  ,  , Liakata.M.}
+DESCRIPTION:Staff = Liakata.M.; Code = CS918L; Comments =  ; Suitabilities =  ; Raw line = {CS918L, CS918 Natural Language Processing, Monday, 16:00, 17:00, LIB2, 15-24,  ,  , Liakata.M.}
 DTSTAMP:20151005T120000Z
 DTSTART:20160201T150000Z
 DTEND:20160201T160000Z
-LOCATION:CS_CS1.01
+LOCATION:LIB2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS918 - Natural Language Processing
-DESCRIPTION:Staff = Liakata.M.; Code = CS918S; Comments =  ; Suitabilities =  ; Raw line = {CS918S, CS918 Natural Language Processing, Monday, 15:00, 16:00, CS_CS1.01, 16-24,  ,  , Liakata.M.}
+DESCRIPTION:Staff = Liakata.M.; Code = CS918L; Comments =  ; Suitabilities =  ; Raw line = {CS918L, CS918 Natural Language Processing, Monday, 16:00, 17:00, LIB2, 15-24,  ,  , Liakata.M.}
 DTSTAMP:20151005T120000Z
 DTSTART:20160208T150000Z
 DTEND:20160208T160000Z
-LOCATION:CS_CS1.01
+LOCATION:LIB2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS918 - Natural Language Processing
-DESCRIPTION:Staff = Liakata.M.; Code = CS918S; Comments =  ; Suitabilities =  ; Raw line = {CS918S, CS918 Natural Language Processing, Monday, 15:00, 16:00, CS_CS1.01, 16-24,  ,  , Liakata.M.}
+DESCRIPTION:Staff = Liakata.M.; Code = CS918L; Comments =  ; Suitabilities =  ; Raw line = {CS918L, CS918 Natural Language Processing, Monday, 16:00, 17:00, LIB2, 15-24,  ,  , Liakata.M.}
 DTSTAMP:20151005T120000Z
 DTSTART:20160215T150000Z
 DTEND:20160215T160000Z
-LOCATION:CS_CS1.01
+LOCATION:LIB2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS918 - Natural Language Processing
-DESCRIPTION:Staff = Liakata.M.; Code = CS918S; Comments =  ; Suitabilities =  ; Raw line = {CS918S, CS918 Natural Language Processing, Monday, 15:00, 16:00, CS_CS1.01, 16-24,  ,  , Liakata.M.}
+DESCRIPTION:Staff = Liakata.M.; Code = CS918L; Comments =  ; Suitabilities =  ; Raw line = {CS918L, CS918 Natural Language Processing, Monday, 16:00, 17:00, LIB2, 15-24,  ,  , Liakata.M.}
 DTSTAMP:20151005T120000Z
 DTSTART:20160222T150000Z
 DTEND:20160222T160000Z
-LOCATION:CS_CS1.01
+LOCATION:LIB2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS918 - Natural Language Processing
-DESCRIPTION:Staff = Liakata.M.; Code = CS918S; Comments =  ; Suitabilities =  ; Raw line = {CS918S, CS918 Natural Language Processing, Monday, 15:00, 16:00, CS_CS1.01, 16-24,  ,  , Liakata.M.}
+DESCRIPTION:Staff = Liakata.M.; Code = CS918L; Comments =  ; Suitabilities =  ; Raw line = {CS918L, CS918 Natural Language Processing, Monday, 16:00, 17:00, LIB2, 15-24,  ,  , Liakata.M.}
 DTSTAMP:20151005T120000Z
 DTSTART:20160229T150000Z
 DTEND:20160229T160000Z
-LOCATION:CS_CS1.01
+LOCATION:LIB2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS918 - Natural Language Processing
-DESCRIPTION:Staff = Liakata.M.; Code = CS918S; Comments =  ; Suitabilities =  ; Raw line = {CS918S, CS918 Natural Language Processing, Monday, 15:00, 16:00, CS_CS1.01, 16-24,  ,  , Liakata.M.}
+DESCRIPTION:Staff = Liakata.M.; Code = CS918L; Comments =  ; Suitabilities =  ; Raw line = {CS918L, CS918 Natural Language Processing, Monday, 16:00, 17:00, LIB2, 15-24,  ,  , Liakata.M.}
 DTSTAMP:20151005T120000Z
 DTSTART:20160307T150000Z
 DTEND:20160307T160000Z
-LOCATION:CS_CS1.01
+LOCATION:LIB2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS918 - Natural Language Processing
-DESCRIPTION:Staff = Liakata.M.; Code = CS918S; Comments =  ; Suitabilities =  ; Raw line = {CS918S, CS918 Natural Language Processing, Monday, 15:00, 16:00, CS_CS1.01, 16-24,  ,  , Liakata.M.}
+DESCRIPTION:Staff = Liakata.M.; Code = CS918L; Comments =  ; Suitabilities =  ; Raw line = {CS918L, CS918 Natural Language Processing, Monday, 16:00, 17:00, LIB2, 15-24,  ,  , Liakata.M.}
 DTSTAMP:20151005T120000Z
 DTSTART:20160314T150000Z
 DTEND:20160314T160000Z
-LOCATION:CS_CS1.01
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CS918 - Natural Language Processing
-DESCRIPTION:Staff = Liakata.M.; Code = CS918L; Comments =  ; Suitabilities =  ; Raw line = {CS918L, CS918 Natural Language Processing, Monday, 16:00, 17:00, LIB2, 15-24,  ,  , Liakata.M.}
-DTSTAMP:20151005T120000Z
-DTSTART:20160111T160000Z
-DTEND:20160111T170000Z
-LOCATION:LIB2
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CS918 - Natural Language Processing
-DESCRIPTION:Staff = Liakata.M.; Code = CS918L; Comments =  ; Suitabilities =  ; Raw line = {CS918L, CS918 Natural Language Processing, Monday, 16:00, 17:00, LIB2, 15-24,  ,  , Liakata.M.}
-DTSTAMP:20151005T120000Z
-DTSTART:20160118T160000Z
-DTEND:20160118T170000Z
-LOCATION:LIB2
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CS918 - Natural Language Processing
-DESCRIPTION:Staff = Liakata.M.; Code = CS918L; Comments =  ; Suitabilities =  ; Raw line = {CS918L, CS918 Natural Language Processing, Monday, 16:00, 17:00, LIB2, 15-24,  ,  , Liakata.M.}
-DTSTAMP:20151005T120000Z
-DTSTART:20160125T160000Z
-DTEND:20160125T170000Z
-LOCATION:LIB2
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CS918 - Natural Language Processing
-DESCRIPTION:Staff = Liakata.M.; Code = CS918L; Comments =  ; Suitabilities =  ; Raw line = {CS918L, CS918 Natural Language Processing, Monday, 16:00, 17:00, LIB2, 15-24,  ,  , Liakata.M.}
-DTSTAMP:20151005T120000Z
-DTSTART:20160201T160000Z
-DTEND:20160201T170000Z
-LOCATION:LIB2
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CS918 - Natural Language Processing
-DESCRIPTION:Staff = Liakata.M.; Code = CS918L; Comments =  ; Suitabilities =  ; Raw line = {CS918L, CS918 Natural Language Processing, Monday, 16:00, 17:00, LIB2, 15-24,  ,  , Liakata.M.}
-DTSTAMP:20151005T120000Z
-DTSTART:20160208T160000Z
-DTEND:20160208T170000Z
-LOCATION:LIB2
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CS918 - Natural Language Processing
-DESCRIPTION:Staff = Liakata.M.; Code = CS918L; Comments =  ; Suitabilities =  ; Raw line = {CS918L, CS918 Natural Language Processing, Monday, 16:00, 17:00, LIB2, 15-24,  ,  , Liakata.M.}
-DTSTAMP:20151005T120000Z
-DTSTART:20160215T160000Z
-DTEND:20160215T170000Z
-LOCATION:LIB2
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CS918 - Natural Language Processing
-DESCRIPTION:Staff = Liakata.M.; Code = CS918L; Comments =  ; Suitabilities =  ; Raw line = {CS918L, CS918 Natural Language Processing, Monday, 16:00, 17:00, LIB2, 15-24,  ,  , Liakata.M.}
-DTSTAMP:20151005T120000Z
-DTSTART:20160222T160000Z
-DTEND:20160222T170000Z
-LOCATION:LIB2
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CS918 - Natural Language Processing
-DESCRIPTION:Staff = Liakata.M.; Code = CS918L; Comments =  ; Suitabilities =  ; Raw line = {CS918L, CS918 Natural Language Processing, Monday, 16:00, 17:00, LIB2, 15-24,  ,  , Liakata.M.}
-DTSTAMP:20151005T120000Z
-DTSTART:20160229T160000Z
-DTEND:20160229T170000Z
-LOCATION:LIB2
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CS918 - Natural Language Processing
-DESCRIPTION:Staff = Liakata.M.; Code = CS918L; Comments =  ; Suitabilities =  ; Raw line = {CS918L, CS918 Natural Language Processing, Monday, 16:00, 17:00, LIB2, 15-24,  ,  , Liakata.M.}
-DTSTAMP:20151005T120000Z
-DTSTART:20160307T160000Z
-DTEND:20160307T170000Z
-LOCATION:LIB2
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CS918 - Natural Language Processing
-DESCRIPTION:Staff = Liakata.M.; Code = CS918L; Comments =  ; Suitabilities =  ; Raw line = {CS918L, CS918 Natural Language Processing, Monday, 16:00, 17:00, LIB2, 15-24,  ,  , Liakata.M.}
-DTSTAMP:20151005T120000Z
-DTSTART:20160314T160000Z
-DTEND:20160314T170000Z
 LOCATION:LIB2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS918 - Natural Language Processing
 DESCRIPTION:Staff = Liakata.M.; Code = CS918L; Comments =  ; Suitabilities =  ; Raw line = {CS918L, CS918 Natural Language Processing, Wednesday, 10:00, 11:00, L5, 15-24,  ,  , Liakata.M.}
 DTSTAMP:20151005T120000Z
-DTSTART:20160113T100000Z
-DTEND:20160113T110000Z
+DTSTART:20160113T090000Z
+DTEND:20160113T100000Z
 LOCATION:L5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS918 - Natural Language Processing
 DESCRIPTION:Staff = Liakata.M.; Code = CS918L; Comments =  ; Suitabilities =  ; Raw line = {CS918L, CS918 Natural Language Processing, Wednesday, 10:00, 11:00, L5, 15-24,  ,  , Liakata.M.}
 DTSTAMP:20151005T120000Z
-DTSTART:20160120T100000Z
-DTEND:20160120T110000Z
+DTSTART:20160120T090000Z
+DTEND:20160120T100000Z
 LOCATION:L5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS918 - Natural Language Processing
 DESCRIPTION:Staff = Liakata.M.; Code = CS918L; Comments =  ; Suitabilities =  ; Raw line = {CS918L, CS918 Natural Language Processing, Wednesday, 10:00, 11:00, L5, 15-24,  ,  , Liakata.M.}
 DTSTAMP:20151005T120000Z
-DTSTART:20160127T100000Z
-DTEND:20160127T110000Z
+DTSTART:20160127T090000Z
+DTEND:20160127T100000Z
 LOCATION:L5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS918 - Natural Language Processing
 DESCRIPTION:Staff = Liakata.M.; Code = CS918L; Comments =  ; Suitabilities =  ; Raw line = {CS918L, CS918 Natural Language Processing, Wednesday, 10:00, 11:00, L5, 15-24,  ,  , Liakata.M.}
 DTSTAMP:20151005T120000Z
-DTSTART:20160203T100000Z
-DTEND:20160203T110000Z
+DTSTART:20160203T090000Z
+DTEND:20160203T100000Z
 LOCATION:L5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS918 - Natural Language Processing
 DESCRIPTION:Staff = Liakata.M.; Code = CS918L; Comments =  ; Suitabilities =  ; Raw line = {CS918L, CS918 Natural Language Processing, Wednesday, 10:00, 11:00, L5, 15-24,  ,  , Liakata.M.}
 DTSTAMP:20151005T120000Z
-DTSTART:20160210T100000Z
-DTEND:20160210T110000Z
+DTSTART:20160210T090000Z
+DTEND:20160210T100000Z
 LOCATION:L5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS918 - Natural Language Processing
 DESCRIPTION:Staff = Liakata.M.; Code = CS918L; Comments =  ; Suitabilities =  ; Raw line = {CS918L, CS918 Natural Language Processing, Wednesday, 10:00, 11:00, L5, 15-24,  ,  , Liakata.M.}
 DTSTAMP:20151005T120000Z
-DTSTART:20160217T100000Z
-DTEND:20160217T110000Z
+DTSTART:20160217T090000Z
+DTEND:20160217T100000Z
 LOCATION:L5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS918 - Natural Language Processing
 DESCRIPTION:Staff = Liakata.M.; Code = CS918L; Comments =  ; Suitabilities =  ; Raw line = {CS918L, CS918 Natural Language Processing, Wednesday, 10:00, 11:00, L5, 15-24,  ,  , Liakata.M.}
 DTSTAMP:20151005T120000Z
-DTSTART:20160224T100000Z
-DTEND:20160224T110000Z
+DTSTART:20160224T090000Z
+DTEND:20160224T100000Z
 LOCATION:L5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS918 - Natural Language Processing
 DESCRIPTION:Staff = Liakata.M.; Code = CS918L; Comments =  ; Suitabilities =  ; Raw line = {CS918L, CS918 Natural Language Processing, Wednesday, 10:00, 11:00, L5, 15-24,  ,  , Liakata.M.}
 DTSTAMP:20151005T120000Z
-DTSTART:20160302T100000Z
-DTEND:20160302T110000Z
+DTSTART:20160302T090000Z
+DTEND:20160302T100000Z
 LOCATION:L5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS918 - Natural Language Processing
 DESCRIPTION:Staff = Liakata.M.; Code = CS918L; Comments =  ; Suitabilities =  ; Raw line = {CS918L, CS918 Natural Language Processing, Wednesday, 10:00, 11:00, L5, 15-24,  ,  , Liakata.M.}
 DTSTAMP:20151005T120000Z
-DTSTART:20160309T100000Z
-DTEND:20160309T110000Z
+DTSTART:20160309T090000Z
+DTEND:20160309T100000Z
 LOCATION:L5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS918 - Natural Language Processing
 DESCRIPTION:Staff = Liakata.M.; Code = CS918L; Comments =  ; Suitabilities =  ; Raw line = {CS918L, CS918 Natural Language Processing, Wednesday, 10:00, 11:00, L5, 15-24,  ,  , Liakata.M.}
 DTSTAMP:20151005T120000Z
-DTSTART:20160316T100000Z
-DTEND:20160316T110000Z
+DTSTART:20160316T090000Z
+DTEND:20160316T100000Z
 LOCATION:L5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS918 - Natural Language Processing
 DESCRIPTION:Staff = Liakata.M.; Code = CS918P; Comments =  ; Suitabilities =  ; Raw line = {CS918P, CS918 Natural Language Processing, Thursday, 14:00, 16:00, CS_CS0.01, 16-24,  ,  , Liakata.M.}
 DTSTAMP:20151005T120000Z
-DTSTART:20160121T140000Z
-DTEND:20160121T160000Z
+DTSTART:20160121T130000Z
+DTEND:20160121T150000Z
 LOCATION:CS_CS0.01
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS918 - Natural Language Processing
 DESCRIPTION:Staff = Liakata.M.; Code = CS918P; Comments =  ; Suitabilities =  ; Raw line = {CS918P, CS918 Natural Language Processing, Thursday, 14:00, 16:00, CS_CS0.01, 16-24,  ,  , Liakata.M.}
 DTSTAMP:20151005T120000Z
-DTSTART:20160128T140000Z
-DTEND:20160128T160000Z
+DTSTART:20160128T130000Z
+DTEND:20160128T150000Z
 LOCATION:CS_CS0.01
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS918 - Natural Language Processing
 DESCRIPTION:Staff = Liakata.M.; Code = CS918P; Comments =  ; Suitabilities =  ; Raw line = {CS918P, CS918 Natural Language Processing, Thursday, 14:00, 16:00, CS_CS0.01, 16-24,  ,  , Liakata.M.}
 DTSTAMP:20151005T120000Z
-DTSTART:20160204T140000Z
-DTEND:20160204T160000Z
+DTSTART:20160204T130000Z
+DTEND:20160204T150000Z
 LOCATION:CS_CS0.01
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS918 - Natural Language Processing
 DESCRIPTION:Staff = Liakata.M.; Code = CS918P; Comments =  ; Suitabilities =  ; Raw line = {CS918P, CS918 Natural Language Processing, Thursday, 14:00, 16:00, CS_CS0.01, 16-24,  ,  , Liakata.M.}
 DTSTAMP:20151005T120000Z
-DTSTART:20160211T140000Z
-DTEND:20160211T160000Z
+DTSTART:20160211T130000Z
+DTEND:20160211T150000Z
 LOCATION:CS_CS0.01
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS918 - Natural Language Processing
 DESCRIPTION:Staff = Liakata.M.; Code = CS918P; Comments =  ; Suitabilities =  ; Raw line = {CS918P, CS918 Natural Language Processing, Thursday, 14:00, 16:00, CS_CS0.01, 16-24,  ,  , Liakata.M.}
 DTSTAMP:20151005T120000Z
-DTSTART:20160218T140000Z
-DTEND:20160218T160000Z
+DTSTART:20160218T130000Z
+DTEND:20160218T150000Z
 LOCATION:CS_CS0.01
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS918 - Natural Language Processing
 DESCRIPTION:Staff = Liakata.M.; Code = CS918P; Comments =  ; Suitabilities =  ; Raw line = {CS918P, CS918 Natural Language Processing, Thursday, 14:00, 16:00, CS_CS0.01, 16-24,  ,  , Liakata.M.}
 DTSTAMP:20151005T120000Z
-DTSTART:20160225T140000Z
-DTEND:20160225T160000Z
+DTSTART:20160225T130000Z
+DTEND:20160225T150000Z
 LOCATION:CS_CS0.01
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS918 - Natural Language Processing
 DESCRIPTION:Staff = Liakata.M.; Code = CS918P; Comments =  ; Suitabilities =  ; Raw line = {CS918P, CS918 Natural Language Processing, Thursday, 14:00, 16:00, CS_CS0.01, 16-24,  ,  , Liakata.M.}
 DTSTAMP:20151005T120000Z
-DTSTART:20160303T140000Z
-DTEND:20160303T160000Z
+DTSTART:20160303T130000Z
+DTEND:20160303T150000Z
 LOCATION:CS_CS0.01
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS918 - Natural Language Processing
 DESCRIPTION:Staff = Liakata.M.; Code = CS918P; Comments =  ; Suitabilities =  ; Raw line = {CS918P, CS918 Natural Language Processing, Thursday, 14:00, 16:00, CS_CS0.01, 16-24,  ,  , Liakata.M.}
 DTSTAMP:20151005T120000Z
-DTSTART:20160310T140000Z
-DTEND:20160310T160000Z
+DTSTART:20160310T130000Z
+DTEND:20160310T150000Z
 LOCATION:CS_CS0.01
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS918 - Natural Language Processing
 DESCRIPTION:Staff = Liakata.M.; Code = CS918P; Comments =  ; Suitabilities =  ; Raw line = {CS918P, CS918 Natural Language Processing, Thursday, 14:00, 16:00, CS_CS0.01, 16-24,  ,  , Liakata.M.}
 DTSTAMP:20151005T120000Z
-DTSTART:20160317T140000Z
-DTEND:20160317T160000Z
+DTSTART:20160317T130000Z
+DTEND:20160317T150000Z
 LOCATION:CS_CS0.01
 END:VEVENT
 END:VCALENDAR
