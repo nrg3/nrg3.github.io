@@ -1,0 +1,118 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hand_made//me//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME;VALUE=TEXT:CY903 - Practical Algorithms and Data Structures
+BEGIN:VEVENT
+SUMMARY:CY903 - Practical Algorithms and Data Structures
+DESCRIPTION:Staff =  ; Code = CY903L; Comments =  ; Suitabilities =  ; Raw line = {CY903L, CY903 Practical Algorithms and Data Structures, Monday, 10:00, 12:00, CS_CS0.07, 4-10,  ,  ,  }
+DTSTAMP:20151026T100000
+DTSTART:20151026T100000
+DTEND:20151026T120000
+LOCATION:CS_CS0.07
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CY903 - Practical Algorithms and Data Structures
+DESCRIPTION:Staff =  ; Code = CY903L; Comments =  ; Suitabilities =  ; Raw line = {CY903L, CY903 Practical Algorithms and Data Structures, Monday, 10:00, 12:00, CS_CS0.07, 4-10,  ,  ,  }
+DTSTAMP:20151102T100000
+DTSTART:20151102T100000
+DTEND:20151102T120000
+LOCATION:CS_CS0.07
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CY903 - Practical Algorithms and Data Structures
+DESCRIPTION:Staff =  ; Code = CY903L; Comments =  ; Suitabilities =  ; Raw line = {CY903L, CY903 Practical Algorithms and Data Structures, Monday, 10:00, 12:00, CS_CS0.07, 4-10,  ,  ,  }
+DTSTAMP:20151109T100000
+DTSTART:20151109T100000
+DTEND:20151109T120000
+LOCATION:CS_CS0.07
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CY903 - Practical Algorithms and Data Structures
+DESCRIPTION:Staff =  ; Code = CY903L; Comments =  ; Suitabilities =  ; Raw line = {CY903L, CY903 Practical Algorithms and Data Structures, Monday, 10:00, 12:00, CS_CS0.07, 4-10,  ,  ,  }
+DTSTAMP:20151116T100000
+DTSTART:20151116T100000
+DTEND:20151116T120000
+LOCATION:CS_CS0.07
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CY903 - Practical Algorithms and Data Structures
+DESCRIPTION:Staff =  ; Code = CY903L; Comments =  ; Suitabilities =  ; Raw line = {CY903L, CY903 Practical Algorithms and Data Structures, Monday, 10:00, 12:00, CS_CS0.07, 4-10,  ,  ,  }
+DTSTAMP:20151123T100000
+DTSTART:20151123T100000
+DTEND:20151123T120000
+LOCATION:CS_CS0.07
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CY903 - Practical Algorithms and Data Structures
+DESCRIPTION:Staff =  ; Code = CY903L; Comments =  ; Suitabilities =  ; Raw line = {CY903L, CY903 Practical Algorithms and Data Structures, Monday, 10:00, 12:00, CS_CS0.07, 4-10,  ,  ,  }
+DTSTAMP:20151130T100000
+DTSTART:20151130T100000
+DTEND:20151130T120000
+LOCATION:CS_CS0.07
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CY903 - Practical Algorithms and Data Structures
+DESCRIPTION:Staff =  ; Code = CY903L; Comments =  ; Suitabilities =  ; Raw line = {CY903L, CY903 Practical Algorithms and Data Structures, Monday, 10:00, 12:00, CS_CS0.07, 4-10,  ,  ,  }
+DTSTAMP:20151207T100000
+DTSTART:20151207T100000
+DTEND:20151207T120000
+LOCATION:CS_CS0.07
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CY903 - Practical Algorithms and Data Structures
+DESCRIPTION:Staff =  ; Code = CY903L; Comments = requested A0.01 (Linux); Suitabilities = -Av-Pc Room; Raw line = {CY903L, CY903 Practical Algorithms and Data Structures, Wednesday, 10:00, 12:00, IN_A0.01 (PC room - Linux), 4-10, requested A0.01 (Linux), -Av-Pc Room,  }
+DTSTAMP:20151028T100000
+DTSTART:20151028T100000
+DTEND:20151028T120000
+LOCATION:IN_A0.01 (PC room - Linux)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CY903 - Practical Algorithms and Data Structures
+DESCRIPTION:Staff =  ; Code = CY903L; Comments = requested A0.01 (Linux); Suitabilities = -Av-Pc Room; Raw line = {CY903L, CY903 Practical Algorithms and Data Structures, Wednesday, 10:00, 12:00, IN_A0.01 (PC room - Linux), 4-10, requested A0.01 (Linux), -Av-Pc Room,  }
+DTSTAMP:20151104T100000
+DTSTART:20151104T100000
+DTEND:20151104T120000
+LOCATION:IN_A0.01 (PC room - Linux)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CY903 - Practical Algorithms and Data Structures
+DESCRIPTION:Staff =  ; Code = CY903L; Comments = requested A0.01 (Linux); Suitabilities = -Av-Pc Room; Raw line = {CY903L, CY903 Practical Algorithms and Data Structures, Wednesday, 10:00, 12:00, IN_A0.01 (PC room - Linux), 4-10, requested A0.01 (Linux), -Av-Pc Room,  }
+DTSTAMP:20151111T100000
+DTSTART:20151111T100000
+DTEND:20151111T120000
+LOCATION:IN_A0.01 (PC room - Linux)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CY903 - Practical Algorithms and Data Structures
+DESCRIPTION:Staff =  ; Code = CY903L; Comments = requested A0.01 (Linux); Suitabilities = -Av-Pc Room; Raw line = {CY903L, CY903 Practical Algorithms and Data Structures, Wednesday, 10:00, 12:00, IN_A0.01 (PC room - Linux), 4-10, requested A0.01 (Linux), -Av-Pc Room,  }
+DTSTAMP:20151118T100000
+DTSTART:20151118T100000
+DTEND:20151118T120000
+LOCATION:IN_A0.01 (PC room - Linux)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CY903 - Practical Algorithms and Data Structures
+DESCRIPTION:Staff =  ; Code = CY903L; Comments = requested A0.01 (Linux); Suitabilities = -Av-Pc Room; Raw line = {CY903L, CY903 Practical Algorithms and Data Structures, Wednesday, 10:00, 12:00, IN_A0.01 (PC room - Linux), 4-10, requested A0.01 (Linux), -Av-Pc Room,  }
+DTSTAMP:20151125T100000
+DTSTART:20151125T100000
+DTEND:20151125T120000
+LOCATION:IN_A0.01 (PC room - Linux)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CY903 - Practical Algorithms and Data Structures
+DESCRIPTION:Staff =  ; Code = CY903L; Comments = requested A0.01 (Linux); Suitabilities = -Av-Pc Room; Raw line = {CY903L, CY903 Practical Algorithms and Data Structures, Wednesday, 10:00, 12:00, IN_A0.01 (PC room - Linux), 4-10, requested A0.01 (Linux), -Av-Pc Room,  }
+DTSTAMP:20151202T100000
+DTSTART:20151202T100000
+DTEND:20151202T120000
+LOCATION:IN_A0.01 (PC room - Linux)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CY903 - Practical Algorithms and Data Structures
+DESCRIPTION:Staff =  ; Code = CY903L; Comments = requested A0.01 (Linux); Suitabilities = -Av-Pc Room; Raw line = {CY903L, CY903 Practical Algorithms and Data Structures, Wednesday, 10:00, 12:00, IN_A0.01 (PC room - Linux), 4-10, requested A0.01 (Linux), -Av-Pc Room,  }
+DTSTAMP:20151209T100000
+DTSTART:20151209T100000
+DTEND:20151209T120000
+LOCATION:IN_A0.01 (PC room - Linux)
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,454 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hand_made//me//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME;VALUE=TEXT:EC230 - Economics of Money and Banking
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 1; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 1, EC230 Economics of Money and Banking, Monday, 10:00, 11:00, S1.66, 3, 5, 7, 9,  ,  ,  }
+DTSTAMP:20151019T100000
+DTSTART:20151019T100000
+DTEND:20151019T110000
+LOCATION:S1.66
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 1; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 1, EC230 Economics of Money and Banking, Monday, 10:00, 11:00, S1.66, 3, 5, 7, 9,  ,  ,  }
+DTSTAMP:20151102T100000
+DTSTART:20151102T100000
+DTEND:20151102T110000
+LOCATION:S1.66
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 1; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 1, EC230 Economics of Money and Banking, Monday, 10:00, 11:00, S1.66, 3, 5, 7, 9,  ,  ,  }
+DTSTAMP:20151116T100000
+DTSTART:20151116T100000
+DTEND:20151116T110000
+LOCATION:S1.66
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 1; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 1, EC230 Economics of Money and Banking, Monday, 10:00, 11:00, S1.66, 3, 5, 7, 9,  ,  ,  }
+DTSTAMP:20151130T100000
+DTSTART:20151130T100000
+DTEND:20151130T110000
+LOCATION:S1.66
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 2; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 2, EC230 Economics of Money and Banking, Monday, 10:00, 11:00, S1.66, 4, 6, 8, 10,  ,  ,  }
+DTSTAMP:20151026T100000
+DTSTART:20151026T100000
+DTEND:20151026T110000
+LOCATION:S1.66
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 2; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 2, EC230 Economics of Money and Banking, Monday, 10:00, 11:00, S1.66, 4, 6, 8, 10,  ,  ,  }
+DTSTAMP:20151109T100000
+DTSTART:20151109T100000
+DTEND:20151109T110000
+LOCATION:S1.66
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 2; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 2, EC230 Economics of Money and Banking, Monday, 10:00, 11:00, S1.66, 4, 6, 8, 10,  ,  ,  }
+DTSTAMP:20151123T100000
+DTSTART:20151123T100000
+DTEND:20151123T110000
+LOCATION:S1.66
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 2; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 2, EC230 Economics of Money and Banking, Monday, 10:00, 11:00, S1.66, 4, 6, 8, 10,  ,  ,  }
+DTSTAMP:20151207T100000
+DTSTART:20151207T100000
+DTEND:20151207T110000
+LOCATION:S1.66
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230L; Comments =  ; Suitabilities = -Layout-Tiered; Raw line = {EC230L, EC230 Economics of Money and Banking, Monday, 12:00, 13:00, L5, 2-10,  , -Layout-Tiered,  }
+DTSTAMP:20151012T120000
+DTSTART:20151012T120000
+DTEND:20151012T130000
+LOCATION:L5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230L; Comments =  ; Suitabilities = -Layout-Tiered; Raw line = {EC230L, EC230 Economics of Money and Banking, Monday, 12:00, 13:00, L5, 2-10,  , -Layout-Tiered,  }
+DTSTAMP:20151019T120000
+DTSTART:20151019T120000
+DTEND:20151019T130000
+LOCATION:L5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230L; Comments =  ; Suitabilities = -Layout-Tiered; Raw line = {EC230L, EC230 Economics of Money and Banking, Monday, 12:00, 13:00, L5, 2-10,  , -Layout-Tiered,  }
+DTSTAMP:20151026T120000
+DTSTART:20151026T120000
+DTEND:20151026T130000
+LOCATION:L5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230L; Comments =  ; Suitabilities = -Layout-Tiered; Raw line = {EC230L, EC230 Economics of Money and Banking, Monday, 12:00, 13:00, L5, 2-10,  , -Layout-Tiered,  }
+DTSTAMP:20151102T120000
+DTSTART:20151102T120000
+DTEND:20151102T130000
+LOCATION:L5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230L; Comments =  ; Suitabilities = -Layout-Tiered; Raw line = {EC230L, EC230 Economics of Money and Banking, Monday, 12:00, 13:00, L5, 2-10,  , -Layout-Tiered,  }
+DTSTAMP:20151109T120000
+DTSTART:20151109T120000
+DTEND:20151109T130000
+LOCATION:L5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230L; Comments =  ; Suitabilities = -Layout-Tiered; Raw line = {EC230L, EC230 Economics of Money and Banking, Monday, 12:00, 13:00, L5, 2-10,  , -Layout-Tiered,  }
+DTSTAMP:20151116T120000
+DTSTART:20151116T120000
+DTEND:20151116T130000
+LOCATION:L5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230L; Comments =  ; Suitabilities = -Layout-Tiered; Raw line = {EC230L, EC230 Economics of Money and Banking, Monday, 12:00, 13:00, L5, 2-10,  , -Layout-Tiered,  }
+DTSTAMP:20151123T120000
+DTSTART:20151123T120000
+DTEND:20151123T130000
+LOCATION:L5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230L; Comments =  ; Suitabilities = -Layout-Tiered; Raw line = {EC230L, EC230 Economics of Money and Banking, Monday, 12:00, 13:00, L5, 2-10,  , -Layout-Tiered,  }
+DTSTAMP:20151130T120000
+DTSTART:20151130T120000
+DTEND:20151130T130000
+LOCATION:L5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230L; Comments =  ; Suitabilities = -Layout-Tiered; Raw line = {EC230L, EC230 Economics of Money and Banking, Monday, 12:00, 13:00, L5, 2-10,  , -Layout-Tiered,  }
+DTSTAMP:20151207T120000
+DTSTART:20151207T120000
+DTEND:20151207T130000
+LOCATION:L5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 3; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 3, EC230 Economics of Money and Banking, Monday, 13:00, 14:00, S0.08, 3, 5, 7, 9,  ,  ,  }
+DTSTAMP:20151019T130000
+DTSTART:20151019T130000
+DTEND:20151019T140000
+LOCATION:S0.08
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 3; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 3, EC230 Economics of Money and Banking, Monday, 13:00, 14:00, S0.08, 3, 5, 7, 9,  ,  ,  }
+DTSTAMP:20151102T130000
+DTSTART:20151102T130000
+DTEND:20151102T140000
+LOCATION:S0.08
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 3; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 3, EC230 Economics of Money and Banking, Monday, 13:00, 14:00, S0.08, 3, 5, 7, 9,  ,  ,  }
+DTSTAMP:20151116T130000
+DTSTART:20151116T130000
+DTEND:20151116T140000
+LOCATION:S0.08
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 3; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 3, EC230 Economics of Money and Banking, Monday, 13:00, 14:00, S0.08, 3, 5, 7, 9,  ,  ,  }
+DTSTAMP:20151130T130000
+DTSTART:20151130T130000
+DTEND:20151130T140000
+LOCATION:S0.08
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 4; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 4, EC230 Economics of Money and Banking, Monday, 13:00, 14:00, S0.08, 4, 6, 8, 10,  ,  ,  }
+DTSTAMP:20151026T130000
+DTSTART:20151026T130000
+DTEND:20151026T140000
+LOCATION:S0.08
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 4; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 4, EC230 Economics of Money and Banking, Monday, 13:00, 14:00, S0.08, 4, 6, 8, 10,  ,  ,  }
+DTSTAMP:20151109T130000
+DTSTART:20151109T130000
+DTEND:20151109T140000
+LOCATION:S0.08
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 4; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 4, EC230 Economics of Money and Banking, Monday, 13:00, 14:00, S0.08, 4, 6, 8, 10,  ,  ,  }
+DTSTAMP:20151123T130000
+DTSTART:20151123T130000
+DTEND:20151123T140000
+LOCATION:S0.08
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 4; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 4, EC230 Economics of Money and Banking, Monday, 13:00, 14:00, S0.08, 4, 6, 8, 10,  ,  ,  }
+DTSTAMP:20151207T130000
+DTSTART:20151207T130000
+DTEND:20151207T140000
+LOCATION:S0.08
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 9; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 9, EC230 Economics of Money and Banking, Monday, 14:00, 15:00, S1.66, 3, 5, 7, 9,  ,  ,  }
+DTSTAMP:20151019T140000
+DTSTART:20151019T140000
+DTEND:20151019T150000
+LOCATION:S1.66
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 9; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 9, EC230 Economics of Money and Banking, Monday, 14:00, 15:00, S1.66, 3, 5, 7, 9,  ,  ,  }
+DTSTAMP:20151102T140000
+DTSTART:20151102T140000
+DTEND:20151102T150000
+LOCATION:S1.66
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 9; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 9, EC230 Economics of Money and Banking, Monday, 14:00, 15:00, S1.66, 3, 5, 7, 9,  ,  ,  }
+DTSTAMP:20151116T140000
+DTSTART:20151116T140000
+DTEND:20151116T150000
+LOCATION:S1.66
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 9; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 9, EC230 Economics of Money and Banking, Monday, 14:00, 15:00, S1.66, 3, 5, 7, 9,  ,  ,  }
+DTSTAMP:20151130T140000
+DTSTART:20151130T140000
+DTEND:20151130T150000
+LOCATION:S1.66
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230L; Comments =  ; Suitabilities =  ; Raw line = {EC230L, EC230 Economics of Money and Banking, Monday, 17:00, 18:00, L4, 2-10,  ,  ,  }
+DTSTAMP:20151012T170000
+DTSTART:20151012T170000
+DTEND:20151012T180000
+LOCATION:L4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230L; Comments =  ; Suitabilities =  ; Raw line = {EC230L, EC230 Economics of Money and Banking, Monday, 17:00, 18:00, L4, 2-10,  ,  ,  }
+DTSTAMP:20151019T170000
+DTSTART:20151019T170000
+DTEND:20151019T180000
+LOCATION:L4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230L; Comments =  ; Suitabilities =  ; Raw line = {EC230L, EC230 Economics of Money and Banking, Monday, 17:00, 18:00, L4, 2-10,  ,  ,  }
+DTSTAMP:20151026T170000
+DTSTART:20151026T170000
+DTEND:20151026T180000
+LOCATION:L4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230L; Comments =  ; Suitabilities =  ; Raw line = {EC230L, EC230 Economics of Money and Banking, Monday, 17:00, 18:00, L4, 2-10,  ,  ,  }
+DTSTAMP:20151102T170000
+DTSTART:20151102T170000
+DTEND:20151102T180000
+LOCATION:L4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230L; Comments =  ; Suitabilities =  ; Raw line = {EC230L, EC230 Economics of Money and Banking, Monday, 17:00, 18:00, L4, 2-10,  ,  ,  }
+DTSTAMP:20151109T170000
+DTSTART:20151109T170000
+DTEND:20151109T180000
+LOCATION:L4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230L; Comments =  ; Suitabilities =  ; Raw line = {EC230L, EC230 Economics of Money and Banking, Monday, 17:00, 18:00, L4, 2-10,  ,  ,  }
+DTSTAMP:20151116T170000
+DTSTART:20151116T170000
+DTEND:20151116T180000
+LOCATION:L4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230L; Comments =  ; Suitabilities =  ; Raw line = {EC230L, EC230 Economics of Money and Banking, Monday, 17:00, 18:00, L4, 2-10,  ,  ,  }
+DTSTAMP:20151123T170000
+DTSTART:20151123T170000
+DTEND:20151123T180000
+LOCATION:L4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230L; Comments =  ; Suitabilities =  ; Raw line = {EC230L, EC230 Economics of Money and Banking, Monday, 17:00, 18:00, L4, 2-10,  ,  ,  }
+DTSTAMP:20151130T170000
+DTSTART:20151130T170000
+DTEND:20151130T180000
+LOCATION:L4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230L; Comments =  ; Suitabilities =  ; Raw line = {EC230L, EC230 Economics of Money and Banking, Monday, 17:00, 18:00, L4, 2-10,  ,  ,  }
+DTSTAMP:20151207T170000
+DTSTART:20151207T170000
+DTEND:20151207T180000
+LOCATION:L4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230Lwks 8+9; Comments =  ; Suitabilities =  ; Raw line = {EC230Lwks 8+9, EC230 Economics of Money and Banking, Monday, 18:00, 19:00, L4, 8-9,  ,  ,  }
+DTSTAMP:20151123T180000
+DTSTART:20151123T180000
+DTEND:20151123T190000
+LOCATION:L4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230Lwks 8+9; Comments =  ; Suitabilities =  ; Raw line = {EC230Lwks 8+9, EC230 Economics of Money and Banking, Monday, 18:00, 19:00, L4, 8-9,  ,  ,  }
+DTSTAMP:20151130T180000
+DTSTART:20151130T180000
+DTEND:20151130T190000
+LOCATION:L4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 5; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 5, EC230 Economics of Money and Banking, Wednesday, 10:00, 11:00, R0.14, 3, 5, 7, 9,  ,  ,  }
+DTSTAMP:20151021T100000
+DTSTART:20151021T100000
+DTEND:20151021T110000
+LOCATION:R0.14
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 5; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 5, EC230 Economics of Money and Banking, Wednesday, 10:00, 11:00, R0.14, 3, 5, 7, 9,  ,  ,  }
+DTSTAMP:20151104T100000
+DTSTART:20151104T100000
+DTEND:20151104T110000
+LOCATION:R0.14
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 5; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 5, EC230 Economics of Money and Banking, Wednesday, 10:00, 11:00, R0.14, 3, 5, 7, 9,  ,  ,  }
+DTSTAMP:20151118T100000
+DTSTART:20151118T100000
+DTEND:20151118T110000
+LOCATION:R0.14
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 5; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 5, EC230 Economics of Money and Banking, Wednesday, 10:00, 11:00, R0.14, 3, 5, 7, 9,  ,  ,  }
+DTSTAMP:20151202T100000
+DTSTART:20151202T100000
+DTEND:20151202T110000
+LOCATION:R0.14
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 6; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 6, EC230 Economics of Money and Banking, Wednesday, 10:00, 11:00, R0.14, 4, 6, 8, 10,  ,  ,  }
+DTSTAMP:20151028T100000
+DTSTART:20151028T100000
+DTEND:20151028T110000
+LOCATION:R0.14
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 6; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 6, EC230 Economics of Money and Banking, Wednesday, 10:00, 11:00, R0.14, 4, 6, 8, 10,  ,  ,  }
+DTSTAMP:20151111T100000
+DTSTART:20151111T100000
+DTEND:20151111T110000
+LOCATION:R0.14
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 6; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 6, EC230 Economics of Money and Banking, Wednesday, 10:00, 11:00, R0.14, 4, 6, 8, 10,  ,  ,  }
+DTSTAMP:20151125T100000
+DTSTART:20151125T100000
+DTEND:20151125T110000
+LOCATION:R0.14
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 6; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 6, EC230 Economics of Money and Banking, Wednesday, 10:00, 11:00, R0.14, 4, 6, 8, 10,  ,  ,  }
+DTSTAMP:20151209T100000
+DTSTART:20151209T100000
+DTEND:20151209T110000
+LOCATION:R0.14
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 7; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 7, EC230 Economics of Money and Banking, Wednesday, 11:00, 12:00, H3.55, 3, 5, 7, 9,  ,  ,  }
+DTSTAMP:20151021T110000
+DTSTART:20151021T110000
+DTEND:20151021T120000
+LOCATION:H3.55
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 7; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 7, EC230 Economics of Money and Banking, Wednesday, 11:00, 12:00, H3.55, 3, 5, 7, 9,  ,  ,  }
+DTSTAMP:20151104T110000
+DTSTART:20151104T110000
+DTEND:20151104T120000
+LOCATION:H3.55
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 7; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 7, EC230 Economics of Money and Banking, Wednesday, 11:00, 12:00, H3.55, 3, 5, 7, 9,  ,  ,  }
+DTSTAMP:20151118T110000
+DTSTART:20151118T110000
+DTEND:20151118T120000
+LOCATION:H3.55
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 7; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 7, EC230 Economics of Money and Banking, Wednesday, 11:00, 12:00, H3.55, 3, 5, 7, 9,  ,  ,  }
+DTSTAMP:20151202T110000
+DTSTART:20151202T110000
+DTEND:20151202T120000
+LOCATION:H3.55
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 8; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 8, EC230 Economics of Money and Banking, Wednesday, 11:00, 12:00, H3.55, 4, 6, 8, 10,  ,  ,  }
+DTSTAMP:20151028T110000
+DTSTART:20151028T110000
+DTEND:20151028T120000
+LOCATION:H3.55
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 8; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 8, EC230 Economics of Money and Banking, Wednesday, 11:00, 12:00, H3.55, 4, 6, 8, 10,  ,  ,  }
+DTSTAMP:20151111T110000
+DTSTART:20151111T110000
+DTEND:20151111T120000
+LOCATION:H3.55
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 8; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 8, EC230 Economics of Money and Banking, Wednesday, 11:00, 12:00, H3.55, 4, 6, 8, 10,  ,  ,  }
+DTSTAMP:20151125T110000
+DTSTART:20151125T110000
+DTEND:20151125T120000
+LOCATION:H3.55
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EC230 - Economics of Money and Banking
+DESCRIPTION:Staff =  ; Code = EC230S class 8; Comments =  ; Suitabilities =  ; Raw line = {EC230S class 8, EC230 Economics of Money and Banking, Wednesday, 11:00, 12:00, H3.55, 4, 6, 8, 10,  ,  ,  }
+DTSTAMP:20151209T110000
+DTSTART:20151209T110000
+DTEND:20151209T120000
+LOCATION:H3.55
+END:VEVENT
+END:VCALENDAR
