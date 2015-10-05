@@ -10,13 +10,13 @@ TZID:Europe/London
 X-LIC-LOCATION:Europe/London
 BEGIN:DAYLIGHT
 TZOFFSETFROM:+0000
-TZOFFSETTO:+0100
+TZOFFSETTO:+0000
 TZNAME:BST
 DTSTART:19700329T010000
 RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
 END:DAYLIGHT
 BEGIN:STANDARD
-TZOFFSETFROM:+0100
+TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 TZNAME:GMT
 DTSTART:19701025T020000
@@ -26,7 +26,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Tuesday, 13:00, 14:00, MS.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
-DTSTAMP;TZID=Europe/London:20151006T130000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151006T130000
 DTEND;TZID=Europe/London:20151006T140000
 LOCATION:MS.03
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Tuesday, 13:00, 14:00, MS.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
-DTSTAMP;TZID=Europe/London:20151013T130000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151013T130000
 DTEND;TZID=Europe/London:20151013T140000
 LOCATION:MS.03
@@ -42,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Tuesday, 13:00, 14:00, MS.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
-DTSTAMP;TZID=Europe/London:20151020T130000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151020T130000
 DTEND;TZID=Europe/London:20151020T140000
 LOCATION:MS.03
@@ -50,7 +50,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Tuesday, 13:00, 14:00, MS.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
-DTSTAMP;TZID=Europe/London:20151027T130000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151027T130000
 DTEND;TZID=Europe/London:20151027T140000
 LOCATION:MS.03
@@ -58,7 +58,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Tuesday, 13:00, 14:00, MS.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
-DTSTAMP;TZID=Europe/London:20151103T130000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151103T130000
 DTEND;TZID=Europe/London:20151103T140000
 LOCATION:MS.03
@@ -66,7 +66,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Tuesday, 13:00, 14:00, MS.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
-DTSTAMP;TZID=Europe/London:20151110T130000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151110T130000
 DTEND;TZID=Europe/London:20151110T140000
 LOCATION:MS.03
@@ -74,7 +74,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Tuesday, 13:00, 14:00, MS.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
-DTSTAMP;TZID=Europe/London:20151117T130000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151117T130000
 DTEND;TZID=Europe/London:20151117T140000
 LOCATION:MS.03
@@ -82,7 +82,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Tuesday, 13:00, 14:00, MS.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
-DTSTAMP;TZID=Europe/London:20151124T130000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151124T130000
 DTEND;TZID=Europe/London:20151124T140000
 LOCATION:MS.03
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Tuesday, 13:00, 14:00, MS.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
-DTSTAMP;TZID=Europe/London:20151201T130000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151201T130000
 DTEND;TZID=Europe/London:20151201T140000
 LOCATION:MS.03
@@ -98,7 +98,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Tuesday, 13:00, 14:00, MS.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
-DTSTAMP;TZID=Europe/London:20151208T130000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151208T130000
 DTEND;TZID=Europe/London:20151208T140000
 LOCATION:MS.03
@@ -106,7 +106,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Wednesday, 10:00, 11:00, MS.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
-DTSTAMP;TZID=Europe/London:20151007T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151007T100000
 DTEND;TZID=Europe/London:20151007T110000
 LOCATION:MS.03
@@ -114,7 +114,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Wednesday, 10:00, 11:00, MS.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
-DTSTAMP;TZID=Europe/London:20151014T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151014T100000
 DTEND;TZID=Europe/London:20151014T110000
 LOCATION:MS.03
@@ -122,7 +122,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Wednesday, 10:00, 11:00, MS.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
-DTSTAMP;TZID=Europe/London:20151021T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151021T100000
 DTEND;TZID=Europe/London:20151021T110000
 LOCATION:MS.03
@@ -130,7 +130,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Wednesday, 10:00, 11:00, MS.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
-DTSTAMP;TZID=Europe/London:20151028T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151028T100000
 DTEND;TZID=Europe/London:20151028T110000
 LOCATION:MS.03
@@ -138,7 +138,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Wednesday, 10:00, 11:00, MS.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
-DTSTAMP;TZID=Europe/London:20151104T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151104T100000
 DTEND;TZID=Europe/London:20151104T110000
 LOCATION:MS.03
@@ -146,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Wednesday, 10:00, 11:00, MS.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
-DTSTAMP;TZID=Europe/London:20151111T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151111T100000
 DTEND;TZID=Europe/London:20151111T110000
 LOCATION:MS.03
@@ -154,7 +154,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Wednesday, 10:00, 11:00, MS.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
-DTSTAMP;TZID=Europe/London:20151118T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151118T100000
 DTEND;TZID=Europe/London:20151118T110000
 LOCATION:MS.03
@@ -162,7 +162,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Wednesday, 10:00, 11:00, MS.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
-DTSTAMP;TZID=Europe/London:20151125T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151125T100000
 DTEND;TZID=Europe/London:20151125T110000
 LOCATION:MS.03
@@ -170,7 +170,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Wednesday, 10:00, 11:00, MS.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
-DTSTAMP;TZID=Europe/London:20151202T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151202T100000
 DTEND;TZID=Europe/London:20151202T110000
 LOCATION:MS.03
@@ -178,7 +178,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Wednesday, 10:00, 11:00, MS.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
-DTSTAMP;TZID=Europe/London:20151209T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151209T100000
 DTEND;TZID=Europe/London:20151209T110000
 LOCATION:MS.03
@@ -186,7 +186,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff =  ; Code = MA398S optional; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398S optional, MA398 Matrix Analysis and Algorithms, Thursday, 10:00, 11:00, MA_B1.01, 2-10,  , -Board-Black,  }
-DTSTAMP;TZID=Europe/London:20151015T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151015T100000
 DTEND;TZID=Europe/London:20151015T110000
 LOCATION:MA_B1.01
@@ -194,7 +194,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff =  ; Code = MA398S optional; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398S optional, MA398 Matrix Analysis and Algorithms, Thursday, 10:00, 11:00, MA_B1.01, 2-10,  , -Board-Black,  }
-DTSTAMP;TZID=Europe/London:20151022T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151022T100000
 DTEND;TZID=Europe/London:20151022T110000
 LOCATION:MA_B1.01
@@ -202,7 +202,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff =  ; Code = MA398S optional; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398S optional, MA398 Matrix Analysis and Algorithms, Thursday, 10:00, 11:00, MA_B1.01, 2-10,  , -Board-Black,  }
-DTSTAMP;TZID=Europe/London:20151029T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151029T100000
 DTEND;TZID=Europe/London:20151029T110000
 LOCATION:MA_B1.01
@@ -210,7 +210,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff =  ; Code = MA398S optional; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398S optional, MA398 Matrix Analysis and Algorithms, Thursday, 10:00, 11:00, MA_B1.01, 2-10,  , -Board-Black,  }
-DTSTAMP;TZID=Europe/London:20151105T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151105T100000
 DTEND;TZID=Europe/London:20151105T110000
 LOCATION:MA_B1.01
@@ -218,7 +218,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff =  ; Code = MA398S optional; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398S optional, MA398 Matrix Analysis and Algorithms, Thursday, 10:00, 11:00, MA_B1.01, 2-10,  , -Board-Black,  }
-DTSTAMP;TZID=Europe/London:20151112T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151112T100000
 DTEND;TZID=Europe/London:20151112T110000
 LOCATION:MA_B1.01
@@ -226,7 +226,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff =  ; Code = MA398S optional; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398S optional, MA398 Matrix Analysis and Algorithms, Thursday, 10:00, 11:00, MA_B1.01, 2-10,  , -Board-Black,  }
-DTSTAMP;TZID=Europe/London:20151119T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151119T100000
 DTEND;TZID=Europe/London:20151119T110000
 LOCATION:MA_B1.01
@@ -234,7 +234,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff =  ; Code = MA398S optional; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398S optional, MA398 Matrix Analysis and Algorithms, Thursday, 10:00, 11:00, MA_B1.01, 2-10,  , -Board-Black,  }
-DTSTAMP;TZID=Europe/London:20151126T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151126T100000
 DTEND;TZID=Europe/London:20151126T110000
 LOCATION:MA_B1.01
@@ -242,7 +242,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff =  ; Code = MA398S optional; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398S optional, MA398 Matrix Analysis and Algorithms, Thursday, 10:00, 11:00, MA_B1.01, 2-10,  , -Board-Black,  }
-DTSTAMP;TZID=Europe/London:20151203T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151203T100000
 DTEND;TZID=Europe/London:20151203T110000
 LOCATION:MA_B1.01
@@ -250,7 +250,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff =  ; Code = MA398S optional; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398S optional, MA398 Matrix Analysis and Algorithms, Thursday, 10:00, 11:00, MA_B1.01, 2-10,  , -Board-Black,  }
-DTSTAMP;TZID=Europe/London:20151210T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151210T100000
 DTEND;TZID=Europe/London:20151210T110000
 LOCATION:MA_B1.01
@@ -258,7 +258,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Thursday, 16:00, 17:00, MS.B3.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
-DTSTAMP;TZID=Europe/London:20151008T160000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151008T160000
 DTEND;TZID=Europe/London:20151008T170000
 LOCATION:MS.B3.03
@@ -266,7 +266,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Thursday, 16:00, 17:00, MS.B3.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
-DTSTAMP;TZID=Europe/London:20151015T160000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151015T160000
 DTEND;TZID=Europe/London:20151015T170000
 LOCATION:MS.B3.03
@@ -274,7 +274,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Thursday, 16:00, 17:00, MS.B3.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
-DTSTAMP;TZID=Europe/London:20151022T160000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151022T160000
 DTEND;TZID=Europe/London:20151022T170000
 LOCATION:MS.B3.03
@@ -282,7 +282,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Thursday, 16:00, 17:00, MS.B3.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
-DTSTAMP;TZID=Europe/London:20151029T160000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151029T160000
 DTEND;TZID=Europe/London:20151029T170000
 LOCATION:MS.B3.03
@@ -290,7 +290,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Thursday, 16:00, 17:00, MS.B3.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
-DTSTAMP;TZID=Europe/London:20151105T160000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151105T160000
 DTEND;TZID=Europe/London:20151105T170000
 LOCATION:MS.B3.03
@@ -298,7 +298,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Thursday, 16:00, 17:00, MS.B3.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
-DTSTAMP;TZID=Europe/London:20151112T160000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151112T160000
 DTEND;TZID=Europe/London:20151112T170000
 LOCATION:MS.B3.03
@@ -306,7 +306,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Thursday, 16:00, 17:00, MS.B3.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
-DTSTAMP;TZID=Europe/London:20151119T160000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151119T160000
 DTEND;TZID=Europe/London:20151119T170000
 LOCATION:MS.B3.03
@@ -314,7 +314,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Thursday, 16:00, 17:00, MS.B3.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
-DTSTAMP;TZID=Europe/London:20151126T160000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151126T160000
 DTEND;TZID=Europe/London:20151126T170000
 LOCATION:MS.B3.03
@@ -322,7 +322,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Thursday, 16:00, 17:00, MS.B3.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
-DTSTAMP;TZID=Europe/London:20151203T160000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151203T160000
 DTEND;TZID=Europe/London:20151203T170000
 LOCATION:MS.B3.03
@@ -330,7 +330,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MA398 - Matrix Analysis and Algorithms
 DESCRIPTION:Staff = Teckentrup.A.,Schillings.C.; Code = MA398L; Comments =  ; Suitabilities = -Board-Black; Raw line = {MA398L, MA398 Matrix Analysis and Algorithms, Thursday, 16:00, 17:00, MS.B3.03, 1-10,  , -Board-Black, Teckentrup.A.,Schillings.C.}
-DTSTAMP;TZID=Europe/London:20151210T160000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151210T160000
 DTEND;TZID=Europe/London:20151210T170000
 LOCATION:MS.B3.03

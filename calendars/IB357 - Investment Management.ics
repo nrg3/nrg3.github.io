@@ -10,13 +10,13 @@ TZID:Europe/London
 X-LIC-LOCATION:Europe/London
 BEGIN:DAYLIGHT
 TZOFFSETFROM:+0000
-TZOFFSETTO:+0100
+TZOFFSETTO:+0000
 TZNAME:BST
 DTSTART:19700329T010000
 RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
 END:DAYLIGHT
 BEGIN:STANDARD
-TZOFFSETFROM:+0100
+TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 TZNAME:GMT
 DTSTART:19701025T020000
@@ -26,7 +26,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff = Shibanov.O.; Code = IB357L; Comments =  ; Suitabilities =  ; Raw line = {IB357L, IB357 Investment Management, Tuesday, 17:00, 19:00, IMC.002, 1-10,  ,  , Shibanov.O.}
-DTSTAMP;TZID=Europe/London:20151006T170000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151006T170000
 DTEND;TZID=Europe/London:20151006T190000
 LOCATION:IMC.002
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff = Shibanov.O.; Code = IB357L; Comments =  ; Suitabilities =  ; Raw line = {IB357L, IB357 Investment Management, Tuesday, 17:00, 19:00, IMC.002, 1-10,  ,  , Shibanov.O.}
-DTSTAMP;TZID=Europe/London:20151013T170000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151013T170000
 DTEND;TZID=Europe/London:20151013T190000
 LOCATION:IMC.002
@@ -42,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff = Shibanov.O.; Code = IB357L; Comments =  ; Suitabilities =  ; Raw line = {IB357L, IB357 Investment Management, Tuesday, 17:00, 19:00, IMC.002, 1-10,  ,  , Shibanov.O.}
-DTSTAMP;TZID=Europe/London:20151020T170000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151020T170000
 DTEND;TZID=Europe/London:20151020T190000
 LOCATION:IMC.002
@@ -50,7 +50,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff = Shibanov.O.; Code = IB357L; Comments =  ; Suitabilities =  ; Raw line = {IB357L, IB357 Investment Management, Tuesday, 17:00, 19:00, IMC.002, 1-10,  ,  , Shibanov.O.}
-DTSTAMP;TZID=Europe/London:20151027T170000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151027T170000
 DTEND;TZID=Europe/London:20151027T190000
 LOCATION:IMC.002
@@ -58,7 +58,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff = Shibanov.O.; Code = IB357L; Comments =  ; Suitabilities =  ; Raw line = {IB357L, IB357 Investment Management, Tuesday, 17:00, 19:00, IMC.002, 1-10,  ,  , Shibanov.O.}
-DTSTAMP;TZID=Europe/London:20151103T170000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151103T170000
 DTEND;TZID=Europe/London:20151103T190000
 LOCATION:IMC.002
@@ -66,7 +66,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff = Shibanov.O.; Code = IB357L; Comments =  ; Suitabilities =  ; Raw line = {IB357L, IB357 Investment Management, Tuesday, 17:00, 19:00, IMC.002, 1-10,  ,  , Shibanov.O.}
-DTSTAMP;TZID=Europe/London:20151110T170000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151110T170000
 DTEND;TZID=Europe/London:20151110T190000
 LOCATION:IMC.002
@@ -74,7 +74,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff = Shibanov.O.; Code = IB357L; Comments =  ; Suitabilities =  ; Raw line = {IB357L, IB357 Investment Management, Tuesday, 17:00, 19:00, IMC.002, 1-10,  ,  , Shibanov.O.}
-DTSTAMP;TZID=Europe/London:20151117T170000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151117T170000
 DTEND;TZID=Europe/London:20151117T190000
 LOCATION:IMC.002
@@ -82,7 +82,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff = Shibanov.O.; Code = IB357L; Comments =  ; Suitabilities =  ; Raw line = {IB357L, IB357 Investment Management, Tuesday, 17:00, 19:00, IMC.002, 1-10,  ,  , Shibanov.O.}
-DTSTAMP;TZID=Europe/London:20151124T170000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151124T170000
 DTEND;TZID=Europe/London:20151124T190000
 LOCATION:IMC.002
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff = Shibanov.O.; Code = IB357L; Comments =  ; Suitabilities =  ; Raw line = {IB357L, IB357 Investment Management, Tuesday, 17:00, 19:00, IMC.002, 1-10,  ,  , Shibanov.O.}
-DTSTAMP;TZID=Europe/London:20151201T170000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151201T170000
 DTEND;TZID=Europe/London:20151201T190000
 LOCATION:IMC.002
@@ -98,7 +98,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff = Shibanov.O.; Code = IB357L; Comments =  ; Suitabilities =  ; Raw line = {IB357L, IB357 Investment Management, Tuesday, 17:00, 19:00, IMC.002, 1-10,  ,  , Shibanov.O.}
-DTSTAMP;TZID=Europe/London:20151208T170000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151208T170000
 DTEND;TZID=Europe/London:20151208T190000
 LOCATION:IMC.002
@@ -106,7 +106,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Thursday, 9:00, 10:00, R2.41, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151008T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151008T090000
 DTEND;TZID=Europe/London:20151008T100000
 LOCATION:R2.41
@@ -114,7 +114,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Thursday, 9:00, 10:00, R2.41, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151015T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151015T090000
 DTEND;TZID=Europe/London:20151015T100000
 LOCATION:R2.41
@@ -122,7 +122,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Thursday, 9:00, 10:00, R2.41, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151022T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151022T090000
 DTEND;TZID=Europe/London:20151022T100000
 LOCATION:R2.41
@@ -130,7 +130,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Thursday, 9:00, 10:00, R2.41, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151029T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151029T090000
 DTEND;TZID=Europe/London:20151029T100000
 LOCATION:R2.41
@@ -138,7 +138,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Thursday, 9:00, 10:00, R2.41, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151105T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151105T090000
 DTEND;TZID=Europe/London:20151105T100000
 LOCATION:R2.41
@@ -146,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Thursday, 9:00, 10:00, R2.41, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151112T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151112T090000
 DTEND;TZID=Europe/London:20151112T100000
 LOCATION:R2.41
@@ -154,7 +154,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Thursday, 9:00, 10:00, R2.41, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151119T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151119T090000
 DTEND;TZID=Europe/London:20151119T100000
 LOCATION:R2.41
@@ -162,7 +162,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Thursday, 9:00, 10:00, R2.41, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151126T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151126T090000
 DTEND;TZID=Europe/London:20151126T100000
 LOCATION:R2.41
@@ -170,7 +170,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Thursday, 9:00, 10:00, R2.41, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151203T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151203T090000
 DTEND;TZID=Europe/London:20151203T100000
 LOCATION:R2.41
@@ -178,7 +178,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Thursday, 9:00, 10:00, R2.41, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151210T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151210T090000
 DTEND;TZID=Europe/London:20151210T100000
 LOCATION:R2.41
@@ -186,7 +186,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Thursday, 10:00, 11:00, S0.10, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151008T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151008T100000
 DTEND;TZID=Europe/London:20151008T110000
 LOCATION:S0.10
@@ -194,7 +194,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Thursday, 10:00, 11:00, S0.10, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151015T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151015T100000
 DTEND;TZID=Europe/London:20151015T110000
 LOCATION:S0.10
@@ -202,7 +202,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Thursday, 10:00, 11:00, S0.10, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151022T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151022T100000
 DTEND;TZID=Europe/London:20151022T110000
 LOCATION:S0.10
@@ -210,7 +210,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Thursday, 10:00, 11:00, S0.10, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151029T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151029T100000
 DTEND;TZID=Europe/London:20151029T110000
 LOCATION:S0.10
@@ -218,7 +218,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Thursday, 10:00, 11:00, S0.10, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151105T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151105T100000
 DTEND;TZID=Europe/London:20151105T110000
 LOCATION:S0.10
@@ -226,7 +226,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Thursday, 10:00, 11:00, S0.10, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151112T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151112T100000
 DTEND;TZID=Europe/London:20151112T110000
 LOCATION:S0.10
@@ -234,7 +234,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Thursday, 10:00, 11:00, S0.10, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151119T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151119T100000
 DTEND;TZID=Europe/London:20151119T110000
 LOCATION:S0.10
@@ -242,7 +242,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Thursday, 10:00, 11:00, S0.10, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151126T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151126T100000
 DTEND;TZID=Europe/London:20151126T110000
 LOCATION:S0.10
@@ -250,7 +250,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Thursday, 10:00, 11:00, S0.10, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151203T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151203T100000
 DTEND;TZID=Europe/London:20151203T110000
 LOCATION:S0.10
@@ -258,7 +258,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Thursday, 10:00, 11:00, S0.10, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151210T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151210T100000
 DTEND;TZID=Europe/London:20151210T110000
 LOCATION:S0.10
@@ -266,7 +266,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Thursday, 12:00, 13:00, R0.12, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151008T120000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151008T120000
 DTEND;TZID=Europe/London:20151008T130000
 LOCATION:R0.12
@@ -274,7 +274,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Thursday, 12:00, 13:00, R0.12, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151015T120000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151015T120000
 DTEND;TZID=Europe/London:20151015T130000
 LOCATION:R0.12
@@ -282,7 +282,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Thursday, 12:00, 13:00, R0.12, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151022T120000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151022T120000
 DTEND;TZID=Europe/London:20151022T130000
 LOCATION:R0.12
@@ -290,7 +290,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Thursday, 12:00, 13:00, R0.12, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151029T120000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151029T120000
 DTEND;TZID=Europe/London:20151029T130000
 LOCATION:R0.12
@@ -298,7 +298,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Thursday, 12:00, 13:00, R0.12, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151105T120000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151105T120000
 DTEND;TZID=Europe/London:20151105T130000
 LOCATION:R0.12
@@ -306,7 +306,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Thursday, 12:00, 13:00, R0.12, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151112T120000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151112T120000
 DTEND;TZID=Europe/London:20151112T130000
 LOCATION:R0.12
@@ -314,7 +314,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Thursday, 12:00, 13:00, R0.12, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151119T120000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151119T120000
 DTEND;TZID=Europe/London:20151119T130000
 LOCATION:R0.12
@@ -322,7 +322,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Thursday, 12:00, 13:00, R0.12, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151126T120000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151126T120000
 DTEND;TZID=Europe/London:20151126T130000
 LOCATION:R0.12
@@ -330,7 +330,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Thursday, 12:00, 13:00, R0.12, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151203T120000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151203T120000
 DTEND;TZID=Europe/London:20151203T130000
 LOCATION:R0.12
@@ -338,7 +338,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Thursday, 12:00, 13:00, R0.12, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151210T120000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151210T120000
 DTEND;TZID=Europe/London:20151210T130000
 LOCATION:R0.12
@@ -346,7 +346,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Friday, 9:00, 10:00, R1.03, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151009T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151009T090000
 DTEND;TZID=Europe/London:20151009T100000
 LOCATION:R1.03
@@ -354,7 +354,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Friday, 9:00, 10:00, R1.03, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151016T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151016T090000
 DTEND;TZID=Europe/London:20151016T100000
 LOCATION:R1.03
@@ -362,7 +362,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Friday, 9:00, 10:00, R1.03, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151023T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151023T090000
 DTEND;TZID=Europe/London:20151023T100000
 LOCATION:R1.03
@@ -370,7 +370,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Friday, 9:00, 10:00, R1.03, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151030T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151030T090000
 DTEND;TZID=Europe/London:20151030T100000
 LOCATION:R1.03
@@ -378,7 +378,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Friday, 9:00, 10:00, R1.03, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151106T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151106T090000
 DTEND;TZID=Europe/London:20151106T100000
 LOCATION:R1.03
@@ -386,7 +386,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Friday, 9:00, 10:00, R1.03, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151113T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151113T090000
 DTEND;TZID=Europe/London:20151113T100000
 LOCATION:R1.03
@@ -394,7 +394,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Friday, 9:00, 10:00, R1.03, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151120T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151120T090000
 DTEND;TZID=Europe/London:20151120T100000
 LOCATION:R1.03
@@ -402,7 +402,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Friday, 9:00, 10:00, R1.03, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151127T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151127T090000
 DTEND;TZID=Europe/London:20151127T100000
 LOCATION:R1.03
@@ -410,7 +410,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Friday, 9:00, 10:00, R1.03, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151204T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151204T090000
 DTEND;TZID=Europe/London:20151204T100000
 LOCATION:R1.03
@@ -418,7 +418,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB357 - Investment Management
 DESCRIPTION:Staff =  ; Code = IB357S; Comments =  ; Suitabilities = -Av-Dvpr/Lcd/Plasma; Raw line = {IB357S, IB357 Investment Management, Friday, 9:00, 10:00, R1.03, 1-10,  , -Av-Dvpr/Lcd/Plasma,  }
-DTSTAMP;TZID=Europe/London:20151211T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151211T090000
 DTEND;TZID=Europe/London:20151211T100000
 LOCATION:R1.03

@@ -10,13 +10,13 @@ TZID:Europe/London
 X-LIC-LOCATION:Europe/London
 BEGIN:DAYLIGHT
 TZOFFSETFROM:+0000
-TZOFFSETTO:+0100
+TZOFFSETTO:+0000
 TZNAME:BST
 DTSTART:19700329T010000
 RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
 END:DAYLIGHT
 BEGIN:STANDARD
-TZOFFSETFROM:+0100
+TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 TZNAME:GMT
 DTSTART:19701025T020000
@@ -26,7 +26,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff = Corvi.P.J; Code = IB253L; Comments =  ; Suitabilities =  ; Raw line = {IB253L, IB253 Principles of Finance 1, Monday, 9:00, 10:00, MS.01, 2-10,  ,  , Corvi.P.J}
-DTSTAMP;TZID=Europe/London:20151012T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151012T090000
 DTEND;TZID=Europe/London:20151012T100000
 LOCATION:MS.01
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff = Corvi.P.J; Code = IB253L; Comments =  ; Suitabilities =  ; Raw line = {IB253L, IB253 Principles of Finance 1, Monday, 9:00, 10:00, MS.01, 2-10,  ,  , Corvi.P.J}
-DTSTAMP;TZID=Europe/London:20151019T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151019T090000
 DTEND;TZID=Europe/London:20151019T100000
 LOCATION:MS.01
@@ -42,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff = Corvi.P.J; Code = IB253L; Comments =  ; Suitabilities =  ; Raw line = {IB253L, IB253 Principles of Finance 1, Monday, 9:00, 10:00, MS.01, 2-10,  ,  , Corvi.P.J}
-DTSTAMP;TZID=Europe/London:20151026T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151026T090000
 DTEND;TZID=Europe/London:20151026T100000
 LOCATION:MS.01
@@ -50,7 +50,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff = Corvi.P.J; Code = IB253L; Comments =  ; Suitabilities =  ; Raw line = {IB253L, IB253 Principles of Finance 1, Monday, 9:00, 10:00, MS.01, 2-10,  ,  , Corvi.P.J}
-DTSTAMP;TZID=Europe/London:20151102T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151102T090000
 DTEND;TZID=Europe/London:20151102T100000
 LOCATION:MS.01
@@ -58,7 +58,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff = Corvi.P.J; Code = IB253L; Comments =  ; Suitabilities =  ; Raw line = {IB253L, IB253 Principles of Finance 1, Monday, 9:00, 10:00, MS.01, 2-10,  ,  , Corvi.P.J}
-DTSTAMP;TZID=Europe/London:20151109T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151109T090000
 DTEND;TZID=Europe/London:20151109T100000
 LOCATION:MS.01
@@ -66,7 +66,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff = Corvi.P.J; Code = IB253L; Comments =  ; Suitabilities =  ; Raw line = {IB253L, IB253 Principles of Finance 1, Monday, 9:00, 10:00, MS.01, 2-10,  ,  , Corvi.P.J}
-DTSTAMP;TZID=Europe/London:20151116T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151116T090000
 DTEND;TZID=Europe/London:20151116T100000
 LOCATION:MS.01
@@ -74,7 +74,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff = Corvi.P.J; Code = IB253L; Comments =  ; Suitabilities =  ; Raw line = {IB253L, IB253 Principles of Finance 1, Monday, 9:00, 10:00, MS.01, 2-10,  ,  , Corvi.P.J}
-DTSTAMP;TZID=Europe/London:20151123T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151123T090000
 DTEND;TZID=Europe/London:20151123T100000
 LOCATION:MS.01
@@ -82,7 +82,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff = Corvi.P.J; Code = IB253L; Comments =  ; Suitabilities =  ; Raw line = {IB253L, IB253 Principles of Finance 1, Monday, 9:00, 10:00, MS.01, 2-10,  ,  , Corvi.P.J}
-DTSTAMP;TZID=Europe/London:20151130T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151130T090000
 DTEND;TZID=Europe/London:20151130T100000
 LOCATION:MS.01
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff = Corvi.P.J; Code = IB253L; Comments =  ; Suitabilities =  ; Raw line = {IB253L, IB253 Principles of Finance 1, Monday, 9:00, 10:00, MS.01, 2-10,  ,  , Corvi.P.J}
-DTSTAMP;TZID=Europe/London:20151207T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151207T090000
 DTEND;TZID=Europe/London:20151207T100000
 LOCATION:MS.01
@@ -98,7 +98,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff = Corvi.P.J; Code = IB253L; Comments =  ; Suitabilities =  ; Raw line = {IB253L, IB253 Principles of Finance 1, Tuesday, 9:00, 10:00, R0.21, 2-10,  ,  , Corvi.P.J}
-DTSTAMP;TZID=Europe/London:20151013T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151013T090000
 DTEND;TZID=Europe/London:20151013T100000
 LOCATION:R0.21
@@ -106,7 +106,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff = Corvi.P.J; Code = IB253L; Comments =  ; Suitabilities =  ; Raw line = {IB253L, IB253 Principles of Finance 1, Tuesday, 9:00, 10:00, R0.21, 2-10,  ,  , Corvi.P.J}
-DTSTAMP;TZID=Europe/London:20151020T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151020T090000
 DTEND;TZID=Europe/London:20151020T100000
 LOCATION:R0.21
@@ -114,7 +114,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff = Corvi.P.J; Code = IB253L; Comments =  ; Suitabilities =  ; Raw line = {IB253L, IB253 Principles of Finance 1, Tuesday, 9:00, 10:00, R0.21, 2-10,  ,  , Corvi.P.J}
-DTSTAMP;TZID=Europe/London:20151027T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151027T090000
 DTEND;TZID=Europe/London:20151027T100000
 LOCATION:R0.21
@@ -122,7 +122,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff = Corvi.P.J; Code = IB253L; Comments =  ; Suitabilities =  ; Raw line = {IB253L, IB253 Principles of Finance 1, Tuesday, 9:00, 10:00, R0.21, 2-10,  ,  , Corvi.P.J}
-DTSTAMP;TZID=Europe/London:20151103T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151103T090000
 DTEND;TZID=Europe/London:20151103T100000
 LOCATION:R0.21
@@ -130,7 +130,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff = Corvi.P.J; Code = IB253L; Comments =  ; Suitabilities =  ; Raw line = {IB253L, IB253 Principles of Finance 1, Tuesday, 9:00, 10:00, R0.21, 2-10,  ,  , Corvi.P.J}
-DTSTAMP;TZID=Europe/London:20151110T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151110T090000
 DTEND;TZID=Europe/London:20151110T100000
 LOCATION:R0.21
@@ -138,7 +138,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff = Corvi.P.J; Code = IB253L; Comments =  ; Suitabilities =  ; Raw line = {IB253L, IB253 Principles of Finance 1, Tuesday, 9:00, 10:00, R0.21, 2-10,  ,  , Corvi.P.J}
-DTSTAMP;TZID=Europe/London:20151117T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151117T090000
 DTEND;TZID=Europe/London:20151117T100000
 LOCATION:R0.21
@@ -146,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff = Corvi.P.J; Code = IB253L; Comments =  ; Suitabilities =  ; Raw line = {IB253L, IB253 Principles of Finance 1, Tuesday, 9:00, 10:00, R0.21, 2-10,  ,  , Corvi.P.J}
-DTSTAMP;TZID=Europe/London:20151124T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151124T090000
 DTEND;TZID=Europe/London:20151124T100000
 LOCATION:R0.21
@@ -154,7 +154,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff = Corvi.P.J; Code = IB253L; Comments =  ; Suitabilities =  ; Raw line = {IB253L, IB253 Principles of Finance 1, Tuesday, 9:00, 10:00, R0.21, 2-10,  ,  , Corvi.P.J}
-DTSTAMP;TZID=Europe/London:20151201T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151201T090000
 DTEND;TZID=Europe/London:20151201T100000
 LOCATION:R0.21
@@ -162,7 +162,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff = Corvi.P.J; Code = IB253L; Comments =  ; Suitabilities =  ; Raw line = {IB253L, IB253 Principles of Finance 1, Tuesday, 9:00, 10:00, R0.21, 2-10,  ,  , Corvi.P.J}
-DTSTAMP;TZID=Europe/London:20151208T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151208T090000
 DTEND;TZID=Europe/London:20151208T100000
 LOCATION:R0.21
@@ -170,7 +170,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff =  ; Code = IB253Ltest; Comments =  ; Suitabilities =  ; Raw line = {IB253Ltest, IB253 Principles of Finance 1, Tuesday, 9:00, 10:00, LIB2, 6,  ,  ,  }
-DTSTAMP;TZID=Europe/London:20151110T090000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151110T090000
 DTEND;TZID=Europe/London:20151110T100000
 LOCATION:LIB2
@@ -178,7 +178,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff =  ; Code = IB253L; Comments = IB2xx5L/02;; Suitabilities =  ; Raw line = {IB253L, IB253 Principles of Finance 1, Wednesday, 12:00, 13:00, L3, 1, IB2xx5L/02;,  ,  }
-DTSTAMP;TZID=Europe/London:20151007T120000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151007T120000
 DTEND;TZID=Europe/London:20151007T130000
 LOCATION:L3
@@ -186,7 +186,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff =  ; Code = IB253S; Comments =  ; Suitabilities =  ; Raw line = {IB253S, IB253 Principles of Finance 1, Thursday, 14:00, 15:00, R1.03, 3-9,  ,  ,  }
-DTSTAMP;TZID=Europe/London:20151022T140000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151022T140000
 DTEND;TZID=Europe/London:20151022T150000
 LOCATION:R1.03
@@ -194,7 +194,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff =  ; Code = IB253S; Comments =  ; Suitabilities =  ; Raw line = {IB253S, IB253 Principles of Finance 1, Thursday, 14:00, 15:00, R1.03, 3-9,  ,  ,  }
-DTSTAMP;TZID=Europe/London:20151029T140000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151029T140000
 DTEND;TZID=Europe/London:20151029T150000
 LOCATION:R1.03
@@ -202,7 +202,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff =  ; Code = IB253S; Comments =  ; Suitabilities =  ; Raw line = {IB253S, IB253 Principles of Finance 1, Thursday, 14:00, 15:00, R1.03, 3-9,  ,  ,  }
-DTSTAMP;TZID=Europe/London:20151105T140000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151105T140000
 DTEND;TZID=Europe/London:20151105T150000
 LOCATION:R1.03
@@ -210,7 +210,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff =  ; Code = IB253S; Comments =  ; Suitabilities =  ; Raw line = {IB253S, IB253 Principles of Finance 1, Thursday, 14:00, 15:00, R1.03, 3-9,  ,  ,  }
-DTSTAMP;TZID=Europe/London:20151112T140000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151112T140000
 DTEND;TZID=Europe/London:20151112T150000
 LOCATION:R1.03
@@ -218,7 +218,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff =  ; Code = IB253S; Comments =  ; Suitabilities =  ; Raw line = {IB253S, IB253 Principles of Finance 1, Thursday, 14:00, 15:00, R1.03, 3-9,  ,  ,  }
-DTSTAMP;TZID=Europe/London:20151119T140000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151119T140000
 DTEND;TZID=Europe/London:20151119T150000
 LOCATION:R1.03
@@ -226,7 +226,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff =  ; Code = IB253S; Comments =  ; Suitabilities =  ; Raw line = {IB253S, IB253 Principles of Finance 1, Thursday, 14:00, 15:00, R1.03, 3-9,  ,  ,  }
-DTSTAMP;TZID=Europe/London:20151126T140000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151126T140000
 DTEND;TZID=Europe/London:20151126T150000
 LOCATION:R1.03
@@ -234,7 +234,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff =  ; Code = IB253S; Comments =  ; Suitabilities =  ; Raw line = {IB253S, IB253 Principles of Finance 1, Thursday, 14:00, 15:00, R1.03, 3-9,  ,  ,  }
-DTSTAMP;TZID=Europe/London:20151203T140000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151203T140000
 DTEND;TZID=Europe/London:20151203T150000
 LOCATION:R1.03
@@ -242,7 +242,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff =  ; Code = IB253S; Comments =  ; Suitabilities =  ; Raw line = {IB253S, IB253 Principles of Finance 1, Thursday, 15:00, 16:00, R1.03, 3-9,  ,  ,  }
-DTSTAMP;TZID=Europe/London:20151022T150000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151022T150000
 DTEND;TZID=Europe/London:20151022T160000
 LOCATION:R1.03
@@ -250,7 +250,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff =  ; Code = IB253S; Comments =  ; Suitabilities =  ; Raw line = {IB253S, IB253 Principles of Finance 1, Thursday, 15:00, 16:00, R1.03, 3-9,  ,  ,  }
-DTSTAMP;TZID=Europe/London:20151029T150000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151029T150000
 DTEND;TZID=Europe/London:20151029T160000
 LOCATION:R1.03
@@ -258,7 +258,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff =  ; Code = IB253S; Comments =  ; Suitabilities =  ; Raw line = {IB253S, IB253 Principles of Finance 1, Thursday, 15:00, 16:00, R1.03, 3-9,  ,  ,  }
-DTSTAMP;TZID=Europe/London:20151105T150000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151105T150000
 DTEND;TZID=Europe/London:20151105T160000
 LOCATION:R1.03
@@ -266,7 +266,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff =  ; Code = IB253S; Comments =  ; Suitabilities =  ; Raw line = {IB253S, IB253 Principles of Finance 1, Thursday, 15:00, 16:00, R1.03, 3-9,  ,  ,  }
-DTSTAMP;TZID=Europe/London:20151112T150000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151112T150000
 DTEND;TZID=Europe/London:20151112T160000
 LOCATION:R1.03
@@ -274,7 +274,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff =  ; Code = IB253S; Comments =  ; Suitabilities =  ; Raw line = {IB253S, IB253 Principles of Finance 1, Thursday, 15:00, 16:00, R1.03, 3-9,  ,  ,  }
-DTSTAMP;TZID=Europe/London:20151119T150000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151119T150000
 DTEND;TZID=Europe/London:20151119T160000
 LOCATION:R1.03
@@ -282,7 +282,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff =  ; Code = IB253S; Comments =  ; Suitabilities =  ; Raw line = {IB253S, IB253 Principles of Finance 1, Thursday, 15:00, 16:00, R1.03, 3-9,  ,  ,  }
-DTSTAMP;TZID=Europe/London:20151126T150000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151126T150000
 DTEND;TZID=Europe/London:20151126T160000
 LOCATION:R1.03
@@ -290,7 +290,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB253 - Principles of Finance 1
 DESCRIPTION:Staff =  ; Code = IB253S; Comments =  ; Suitabilities =  ; Raw line = {IB253S, IB253 Principles of Finance 1, Thursday, 15:00, 16:00, R1.03, 3-9,  ,  ,  }
-DTSTAMP;TZID=Europe/London:20151203T150000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151203T150000
 DTEND;TZID=Europe/London:20151203T160000
 LOCATION:R1.03

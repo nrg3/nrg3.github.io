@@ -10,13 +10,13 @@ TZID:Europe/London
 X-LIC-LOCATION:Europe/London
 BEGIN:DAYLIGHT
 TZOFFSETFROM:+0000
-TZOFFSETTO:+0100
+TZOFFSETTO:+0000
 TZNAME:BST
 DTSTART:19700329T010000
 RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
 END:DAYLIGHT
 BEGIN:STANDARD
-TZOFFSETFROM:+0100
+TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 TZNAME:GMT
 DTSTART:19701025T020000
@@ -26,7 +26,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341L; Comments =  ; Suitabilities =  ; Raw line = {CS341L, CS341 Advanced Topics in A, Monday, 13:00, 14:00, PS1.28, 15-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160111T130000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160111T130000
 DTEND;TZID=Europe/London:20160111T140000
 LOCATION:PS1.28
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341L; Comments =  ; Suitabilities =  ; Raw line = {CS341L, CS341 Advanced Topics in A, Monday, 13:00, 14:00, PS1.28, 15-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160118T130000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160118T130000
 DTEND;TZID=Europe/London:20160118T140000
 LOCATION:PS1.28
@@ -42,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341L; Comments =  ; Suitabilities =  ; Raw line = {CS341L, CS341 Advanced Topics in A, Monday, 13:00, 14:00, PS1.28, 15-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160125T130000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160125T130000
 DTEND;TZID=Europe/London:20160125T140000
 LOCATION:PS1.28
@@ -50,7 +50,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341L; Comments =  ; Suitabilities =  ; Raw line = {CS341L, CS341 Advanced Topics in A, Monday, 13:00, 14:00, PS1.28, 15-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160201T130000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160201T130000
 DTEND;TZID=Europe/London:20160201T140000
 LOCATION:PS1.28
@@ -58,7 +58,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341L; Comments =  ; Suitabilities =  ; Raw line = {CS341L, CS341 Advanced Topics in A, Monday, 13:00, 14:00, PS1.28, 15-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160208T130000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160208T130000
 DTEND;TZID=Europe/London:20160208T140000
 LOCATION:PS1.28
@@ -66,7 +66,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341L; Comments =  ; Suitabilities =  ; Raw line = {CS341L, CS341 Advanced Topics in A, Monday, 13:00, 14:00, PS1.28, 15-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160215T130000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160215T130000
 DTEND;TZID=Europe/London:20160215T140000
 LOCATION:PS1.28
@@ -74,7 +74,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341L; Comments =  ; Suitabilities =  ; Raw line = {CS341L, CS341 Advanced Topics in A, Monday, 13:00, 14:00, PS1.28, 15-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160222T130000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160222T130000
 DTEND;TZID=Europe/London:20160222T140000
 LOCATION:PS1.28
@@ -82,7 +82,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341L; Comments =  ; Suitabilities =  ; Raw line = {CS341L, CS341 Advanced Topics in A, Monday, 13:00, 14:00, PS1.28, 15-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160229T130000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160229T130000
 DTEND;TZID=Europe/London:20160229T140000
 LOCATION:PS1.28
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341L; Comments =  ; Suitabilities =  ; Raw line = {CS341L, CS341 Advanced Topics in A, Monday, 13:00, 14:00, PS1.28, 15-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160307T130000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160307T130000
 DTEND;TZID=Europe/London:20160307T140000
 LOCATION:PS1.28
@@ -98,7 +98,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341L; Comments =  ; Suitabilities =  ; Raw line = {CS341L, CS341 Advanced Topics in A, Monday, 13:00, 14:00, PS1.28, 15-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160314T130000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160314T130000
 DTEND;TZID=Europe/London:20160314T140000
 LOCATION:PS1.28
@@ -106,7 +106,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341L; Comments =  ; Suitabilities =  ; Raw line = {CS341L, CS341 Advanced Topics in A, Tuesday, 13:00, 14:00, F1.11, 15-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160112T130000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160112T130000
 DTEND;TZID=Europe/London:20160112T140000
 LOCATION:F1.11
@@ -114,7 +114,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341L; Comments =  ; Suitabilities =  ; Raw line = {CS341L, CS341 Advanced Topics in A, Tuesday, 13:00, 14:00, F1.11, 15-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160119T130000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160119T130000
 DTEND;TZID=Europe/London:20160119T140000
 LOCATION:F1.11
@@ -122,7 +122,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341L; Comments =  ; Suitabilities =  ; Raw line = {CS341L, CS341 Advanced Topics in A, Tuesday, 13:00, 14:00, F1.11, 15-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160126T130000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160126T130000
 DTEND;TZID=Europe/London:20160126T140000
 LOCATION:F1.11
@@ -130,7 +130,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341L; Comments =  ; Suitabilities =  ; Raw line = {CS341L, CS341 Advanced Topics in A, Tuesday, 13:00, 14:00, F1.11, 15-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160202T130000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160202T130000
 DTEND;TZID=Europe/London:20160202T140000
 LOCATION:F1.11
@@ -138,7 +138,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341L; Comments =  ; Suitabilities =  ; Raw line = {CS341L, CS341 Advanced Topics in A, Tuesday, 13:00, 14:00, F1.11, 15-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160209T130000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160209T130000
 DTEND;TZID=Europe/London:20160209T140000
 LOCATION:F1.11
@@ -146,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341L; Comments =  ; Suitabilities =  ; Raw line = {CS341L, CS341 Advanced Topics in A, Tuesday, 13:00, 14:00, F1.11, 15-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160216T130000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160216T130000
 DTEND;TZID=Europe/London:20160216T140000
 LOCATION:F1.11
@@ -154,7 +154,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341L; Comments =  ; Suitabilities =  ; Raw line = {CS341L, CS341 Advanced Topics in A, Tuesday, 13:00, 14:00, F1.11, 15-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160223T130000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160223T130000
 DTEND;TZID=Europe/London:20160223T140000
 LOCATION:F1.11
@@ -162,7 +162,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341L; Comments =  ; Suitabilities =  ; Raw line = {CS341L, CS341 Advanced Topics in A, Tuesday, 13:00, 14:00, F1.11, 15-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160301T130000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160301T130000
 DTEND;TZID=Europe/London:20160301T140000
 LOCATION:F1.11
@@ -170,7 +170,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341L; Comments =  ; Suitabilities =  ; Raw line = {CS341L, CS341 Advanced Topics in A, Tuesday, 13:00, 14:00, F1.11, 15-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160308T130000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160308T130000
 DTEND;TZID=Europe/London:20160308T140000
 LOCATION:F1.11
@@ -178,7 +178,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341L; Comments =  ; Suitabilities =  ; Raw line = {CS341L, CS341 Advanced Topics in A, Tuesday, 13:00, 14:00, F1.11, 15-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160315T130000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160315T130000
 DTEND;TZID=Europe/London:20160315T140000
 LOCATION:F1.11
@@ -186,7 +186,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341L; Comments =  ; Suitabilities =  ; Raw line = {CS341L, CS341 Advanced Topics in A, Thursday, 14:00, 15:00, CS_CS1.04, 15-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160114T140000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160114T140000
 DTEND;TZID=Europe/London:20160114T150000
 LOCATION:CS_CS1.04
@@ -194,7 +194,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341L; Comments =  ; Suitabilities =  ; Raw line = {CS341L, CS341 Advanced Topics in A, Thursday, 14:00, 15:00, CS_CS1.04, 15-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160121T140000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160121T140000
 DTEND;TZID=Europe/London:20160121T150000
 LOCATION:CS_CS1.04
@@ -202,7 +202,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341L; Comments =  ; Suitabilities =  ; Raw line = {CS341L, CS341 Advanced Topics in A, Thursday, 14:00, 15:00, CS_CS1.04, 15-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160128T140000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160128T140000
 DTEND;TZID=Europe/London:20160128T150000
 LOCATION:CS_CS1.04
@@ -210,7 +210,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341L; Comments =  ; Suitabilities =  ; Raw line = {CS341L, CS341 Advanced Topics in A, Thursday, 14:00, 15:00, CS_CS1.04, 15-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160204T140000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160204T140000
 DTEND;TZID=Europe/London:20160204T150000
 LOCATION:CS_CS1.04
@@ -218,7 +218,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341L; Comments =  ; Suitabilities =  ; Raw line = {CS341L, CS341 Advanced Topics in A, Thursday, 14:00, 15:00, CS_CS1.04, 15-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160211T140000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160211T140000
 DTEND;TZID=Europe/London:20160211T150000
 LOCATION:CS_CS1.04
@@ -226,7 +226,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341L; Comments =  ; Suitabilities =  ; Raw line = {CS341L, CS341 Advanced Topics in A, Thursday, 14:00, 15:00, CS_CS1.04, 15-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160218T140000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160218T140000
 DTEND;TZID=Europe/London:20160218T150000
 LOCATION:CS_CS1.04
@@ -234,7 +234,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341L; Comments =  ; Suitabilities =  ; Raw line = {CS341L, CS341 Advanced Topics in A, Thursday, 14:00, 15:00, CS_CS1.04, 15-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160225T140000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160225T140000
 DTEND;TZID=Europe/London:20160225T150000
 LOCATION:CS_CS1.04
@@ -242,7 +242,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341L; Comments =  ; Suitabilities =  ; Raw line = {CS341L, CS341 Advanced Topics in A, Thursday, 14:00, 15:00, CS_CS1.04, 15-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160303T140000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160303T140000
 DTEND;TZID=Europe/London:20160303T150000
 LOCATION:CS_CS1.04
@@ -250,7 +250,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341L; Comments =  ; Suitabilities =  ; Raw line = {CS341L, CS341 Advanced Topics in A, Thursday, 14:00, 15:00, CS_CS1.04, 15-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160310T140000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160310T140000
 DTEND;TZID=Europe/London:20160310T150000
 LOCATION:CS_CS1.04
@@ -258,7 +258,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341L; Comments =  ; Suitabilities =  ; Raw line = {CS341L, CS341 Advanced Topics in A, Thursday, 14:00, 15:00, CS_CS1.04, 15-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160317T140000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160317T140000
 DTEND;TZID=Europe/London:20160317T150000
 LOCATION:CS_CS1.04
@@ -266,7 +266,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341S; Comments =  ; Suitabilities =  ; Raw line = {CS341S, CS341 Advanced Topics in A, Thursday, 15:00, 16:00, H5.45, 18-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160204T150000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160204T150000
 DTEND;TZID=Europe/London:20160204T160000
 LOCATION:H5.45
@@ -274,7 +274,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341S; Comments =  ; Suitabilities =  ; Raw line = {CS341S, CS341 Advanced Topics in A, Thursday, 15:00, 16:00, H5.45, 18-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160211T150000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160211T150000
 DTEND;TZID=Europe/London:20160211T160000
 LOCATION:H5.45
@@ -282,7 +282,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341S; Comments =  ; Suitabilities =  ; Raw line = {CS341S, CS341 Advanced Topics in A, Thursday, 15:00, 16:00, H5.45, 18-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160218T150000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160218T150000
 DTEND;TZID=Europe/London:20160218T160000
 LOCATION:H5.45
@@ -290,7 +290,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341S; Comments =  ; Suitabilities =  ; Raw line = {CS341S, CS341 Advanced Topics in A, Thursday, 15:00, 16:00, H5.45, 18-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160225T150000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160225T150000
 DTEND;TZID=Europe/London:20160225T160000
 LOCATION:H5.45
@@ -298,7 +298,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341S; Comments =  ; Suitabilities =  ; Raw line = {CS341S, CS341 Advanced Topics in A, Thursday, 15:00, 16:00, H5.45, 18-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160303T150000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160303T150000
 DTEND;TZID=Europe/London:20160303T160000
 LOCATION:H5.45
@@ -306,7 +306,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341S; Comments =  ; Suitabilities =  ; Raw line = {CS341S, CS341 Advanced Topics in A, Thursday, 15:00, 16:00, H5.45, 18-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160310T150000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160310T150000
 DTEND;TZID=Europe/London:20160310T160000
 LOCATION:H5.45
@@ -314,7 +314,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CS341 - Advanced Topics in Algorithms
 DESCRIPTION:Staff = Tiskin.A.; Code = CS341S; Comments =  ; Suitabilities =  ; Raw line = {CS341S, CS341 Advanced Topics in A, Thursday, 15:00, 16:00, H5.45, 18-24,  ,  , Tiskin.A.}
-DTSTAMP;TZID=Europe/London:20160317T150000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160317T150000
 DTEND;TZID=Europe/London:20160317T160000
 LOCATION:H5.45

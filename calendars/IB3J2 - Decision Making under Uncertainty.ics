@@ -10,13 +10,13 @@ TZID:Europe/London
 X-LIC-LOCATION:Europe/London
 BEGIN:DAYLIGHT
 TZOFFSETFROM:+0000
-TZOFFSETTO:+0100
+TZOFFSETTO:+0000
 TZNAME:BST
 DTSTART:19700329T010000
 RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
 END:DAYLIGHT
 BEGIN:STANDARD
-TZOFFSETFROM:+0100
+TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 TZNAME:GMT
 DTSTART:19701025T020000
@@ -26,7 +26,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 SUMMARY:IB3J2 - Decision Making under Uncertainty
 DESCRIPTION:Staff = Gulpinar.N.; Code = IB3J2L; Comments =  ; Suitabilities =  ; Raw line = {IB3J2L, IB3J2 Decision Making under Uncertainty, Tuesday, 10:00, 12:00, R0.03/4, 1-10,  ,  , Gulpinar.N.}
-DTSTAMP;TZID=Europe/London:20151006T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151006T100000
 DTEND;TZID=Europe/London:20151006T120000
 LOCATION:R0.03/4
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB3J2 - Decision Making under Uncertainty
 DESCRIPTION:Staff = Gulpinar.N.; Code = IB3J2L; Comments =  ; Suitabilities =  ; Raw line = {IB3J2L, IB3J2 Decision Making under Uncertainty, Tuesday, 10:00, 12:00, R0.03/4, 1-10,  ,  , Gulpinar.N.}
-DTSTAMP;TZID=Europe/London:20151013T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151013T100000
 DTEND;TZID=Europe/London:20151013T120000
 LOCATION:R0.03/4
@@ -42,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB3J2 - Decision Making under Uncertainty
 DESCRIPTION:Staff = Gulpinar.N.; Code = IB3J2L; Comments =  ; Suitabilities =  ; Raw line = {IB3J2L, IB3J2 Decision Making under Uncertainty, Tuesday, 10:00, 12:00, R0.03/4, 1-10,  ,  , Gulpinar.N.}
-DTSTAMP;TZID=Europe/London:20151020T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151020T100000
 DTEND;TZID=Europe/London:20151020T120000
 LOCATION:R0.03/4
@@ -50,7 +50,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB3J2 - Decision Making under Uncertainty
 DESCRIPTION:Staff = Gulpinar.N.; Code = IB3J2L; Comments =  ; Suitabilities =  ; Raw line = {IB3J2L, IB3J2 Decision Making under Uncertainty, Tuesday, 10:00, 12:00, R0.03/4, 1-10,  ,  , Gulpinar.N.}
-DTSTAMP;TZID=Europe/London:20151027T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151027T100000
 DTEND;TZID=Europe/London:20151027T120000
 LOCATION:R0.03/4
@@ -58,7 +58,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB3J2 - Decision Making under Uncertainty
 DESCRIPTION:Staff = Gulpinar.N.; Code = IB3J2L; Comments =  ; Suitabilities =  ; Raw line = {IB3J2L, IB3J2 Decision Making under Uncertainty, Tuesday, 10:00, 12:00, R0.03/4, 1-10,  ,  , Gulpinar.N.}
-DTSTAMP;TZID=Europe/London:20151103T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151103T100000
 DTEND;TZID=Europe/London:20151103T120000
 LOCATION:R0.03/4
@@ -66,7 +66,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB3J2 - Decision Making under Uncertainty
 DESCRIPTION:Staff = Gulpinar.N.; Code = IB3J2L; Comments =  ; Suitabilities =  ; Raw line = {IB3J2L, IB3J2 Decision Making under Uncertainty, Tuesday, 10:00, 12:00, R0.03/4, 1-10,  ,  , Gulpinar.N.}
-DTSTAMP;TZID=Europe/London:20151110T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151110T100000
 DTEND;TZID=Europe/London:20151110T120000
 LOCATION:R0.03/4
@@ -74,7 +74,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB3J2 - Decision Making under Uncertainty
 DESCRIPTION:Staff = Gulpinar.N.; Code = IB3J2L; Comments =  ; Suitabilities =  ; Raw line = {IB3J2L, IB3J2 Decision Making under Uncertainty, Tuesday, 10:00, 12:00, R0.03/4, 1-10,  ,  , Gulpinar.N.}
-DTSTAMP;TZID=Europe/London:20151117T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151117T100000
 DTEND;TZID=Europe/London:20151117T120000
 LOCATION:R0.03/4
@@ -82,7 +82,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB3J2 - Decision Making under Uncertainty
 DESCRIPTION:Staff = Gulpinar.N.; Code = IB3J2L; Comments =  ; Suitabilities =  ; Raw line = {IB3J2L, IB3J2 Decision Making under Uncertainty, Tuesday, 10:00, 12:00, R0.03/4, 1-10,  ,  , Gulpinar.N.}
-DTSTAMP;TZID=Europe/London:20151124T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151124T100000
 DTEND;TZID=Europe/London:20151124T120000
 LOCATION:R0.03/4
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB3J2 - Decision Making under Uncertainty
 DESCRIPTION:Staff = Gulpinar.N.; Code = IB3J2L; Comments =  ; Suitabilities =  ; Raw line = {IB3J2L, IB3J2 Decision Making under Uncertainty, Tuesday, 10:00, 12:00, R0.03/4, 1-10,  ,  , Gulpinar.N.}
-DTSTAMP;TZID=Europe/London:20151201T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151201T100000
 DTEND;TZID=Europe/London:20151201T120000
 LOCATION:R0.03/4
@@ -98,7 +98,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB3J2 - Decision Making under Uncertainty
 DESCRIPTION:Staff = Gulpinar.N.; Code = IB3J2L; Comments =  ; Suitabilities =  ; Raw line = {IB3J2L, IB3J2 Decision Making under Uncertainty, Tuesday, 10:00, 12:00, R0.03/4, 1-10,  ,  , Gulpinar.N.}
-DTSTAMP;TZID=Europe/London:20151208T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151208T100000
 DTEND;TZID=Europe/London:20151208T120000
 LOCATION:R0.03/4
@@ -106,7 +106,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB3J2 - Decision Making under Uncertainty
 DESCRIPTION:Staff = Gulpinar.N.; Code = IB3J2S; Comments =  ; Suitabilities =  ; Raw line = {IB3J2S, IB3J2 Decision Making under Uncertainty, Friday, 11:00, 12:00, R0.14, 1-10,  ,  , Gulpinar.N.}
-DTSTAMP;TZID=Europe/London:20151009T110000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151009T110000
 DTEND;TZID=Europe/London:20151009T120000
 LOCATION:R0.14
@@ -114,7 +114,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB3J2 - Decision Making under Uncertainty
 DESCRIPTION:Staff = Gulpinar.N.; Code = IB3J2S; Comments =  ; Suitabilities =  ; Raw line = {IB3J2S, IB3J2 Decision Making under Uncertainty, Friday, 11:00, 12:00, R0.14, 1-10,  ,  , Gulpinar.N.}
-DTSTAMP;TZID=Europe/London:20151016T110000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151016T110000
 DTEND;TZID=Europe/London:20151016T120000
 LOCATION:R0.14
@@ -122,7 +122,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB3J2 - Decision Making under Uncertainty
 DESCRIPTION:Staff = Gulpinar.N.; Code = IB3J2S; Comments =  ; Suitabilities =  ; Raw line = {IB3J2S, IB3J2 Decision Making under Uncertainty, Friday, 11:00, 12:00, R0.14, 1-10,  ,  , Gulpinar.N.}
-DTSTAMP;TZID=Europe/London:20151023T110000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151023T110000
 DTEND;TZID=Europe/London:20151023T120000
 LOCATION:R0.14
@@ -130,7 +130,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB3J2 - Decision Making under Uncertainty
 DESCRIPTION:Staff = Gulpinar.N.; Code = IB3J2S; Comments =  ; Suitabilities =  ; Raw line = {IB3J2S, IB3J2 Decision Making under Uncertainty, Friday, 11:00, 12:00, R0.14, 1-10,  ,  , Gulpinar.N.}
-DTSTAMP;TZID=Europe/London:20151030T110000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151030T110000
 DTEND;TZID=Europe/London:20151030T120000
 LOCATION:R0.14
@@ -138,7 +138,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB3J2 - Decision Making under Uncertainty
 DESCRIPTION:Staff = Gulpinar.N.; Code = IB3J2S; Comments =  ; Suitabilities =  ; Raw line = {IB3J2S, IB3J2 Decision Making under Uncertainty, Friday, 11:00, 12:00, R0.14, 1-10,  ,  , Gulpinar.N.}
-DTSTAMP;TZID=Europe/London:20151106T110000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151106T110000
 DTEND;TZID=Europe/London:20151106T120000
 LOCATION:R0.14
@@ -146,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB3J2 - Decision Making under Uncertainty
 DESCRIPTION:Staff = Gulpinar.N.; Code = IB3J2S; Comments =  ; Suitabilities =  ; Raw line = {IB3J2S, IB3J2 Decision Making under Uncertainty, Friday, 11:00, 12:00, R0.14, 1-10,  ,  , Gulpinar.N.}
-DTSTAMP;TZID=Europe/London:20151113T110000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151113T110000
 DTEND;TZID=Europe/London:20151113T120000
 LOCATION:R0.14
@@ -154,7 +154,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB3J2 - Decision Making under Uncertainty
 DESCRIPTION:Staff = Gulpinar.N.; Code = IB3J2S; Comments =  ; Suitabilities =  ; Raw line = {IB3J2S, IB3J2 Decision Making under Uncertainty, Friday, 11:00, 12:00, R0.14, 1-10,  ,  , Gulpinar.N.}
-DTSTAMP;TZID=Europe/London:20151120T110000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151120T110000
 DTEND;TZID=Europe/London:20151120T120000
 LOCATION:R0.14
@@ -162,7 +162,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB3J2 - Decision Making under Uncertainty
 DESCRIPTION:Staff = Gulpinar.N.; Code = IB3J2S; Comments =  ; Suitabilities =  ; Raw line = {IB3J2S, IB3J2 Decision Making under Uncertainty, Friday, 11:00, 12:00, R0.14, 1-10,  ,  , Gulpinar.N.}
-DTSTAMP;TZID=Europe/London:20151127T110000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151127T110000
 DTEND;TZID=Europe/London:20151127T120000
 LOCATION:R0.14
@@ -170,7 +170,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB3J2 - Decision Making under Uncertainty
 DESCRIPTION:Staff = Gulpinar.N.; Code = IB3J2S; Comments =  ; Suitabilities =  ; Raw line = {IB3J2S, IB3J2 Decision Making under Uncertainty, Friday, 11:00, 12:00, R0.14, 1-10,  ,  , Gulpinar.N.}
-DTSTAMP;TZID=Europe/London:20151204T110000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151204T110000
 DTEND;TZID=Europe/London:20151204T120000
 LOCATION:R0.14
@@ -178,7 +178,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB3J2 - Decision Making under Uncertainty
 DESCRIPTION:Staff = Gulpinar.N.; Code = IB3J2S; Comments =  ; Suitabilities =  ; Raw line = {IB3J2S, IB3J2 Decision Making under Uncertainty, Friday, 11:00, 12:00, R0.14, 1-10,  ,  , Gulpinar.N.}
-DTSTAMP;TZID=Europe/London:20151211T110000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20151211T110000
 DTEND;TZID=Europe/London:20151211T120000
 LOCATION:R0.14

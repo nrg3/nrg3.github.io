@@ -10,13 +10,13 @@ TZID:Europe/London
 X-LIC-LOCATION:Europe/London
 BEGIN:DAYLIGHT
 TZOFFSETFROM:+0000
-TZOFFSETTO:+0100
+TZOFFSETTO:+0000
 TZNAME:BST
 DTSTART:19700329T010000
 RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
 END:DAYLIGHT
 BEGIN:STANDARD
-TZOFFSETFROM:+0100
+TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 TZNAME:GMT
 DTSTART:19701025T020000
@@ -26,7 +26,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff = Stremme.A.; Code = IB359L; Comments =  ; Suitabilities =  ; Raw line = {IB359L, IB359 Derivatives and Risk Management, Tuesday, 18:00, 20:00, R0.21, 15-24,  ,  , Stremme.A.}
-DTSTAMP;TZID=Europe/London:20160112T180000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160112T180000
 DTEND;TZID=Europe/London:20160112T200000
 LOCATION:R0.21
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff = Stremme.A.; Code = IB359L; Comments =  ; Suitabilities =  ; Raw line = {IB359L, IB359 Derivatives and Risk Management, Tuesday, 18:00, 20:00, R0.21, 15-24,  ,  , Stremme.A.}
-DTSTAMP;TZID=Europe/London:20160119T180000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160119T180000
 DTEND;TZID=Europe/London:20160119T200000
 LOCATION:R0.21
@@ -42,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff = Stremme.A.; Code = IB359L; Comments =  ; Suitabilities =  ; Raw line = {IB359L, IB359 Derivatives and Risk Management, Tuesday, 18:00, 20:00, R0.21, 15-24,  ,  , Stremme.A.}
-DTSTAMP;TZID=Europe/London:20160126T180000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160126T180000
 DTEND;TZID=Europe/London:20160126T200000
 LOCATION:R0.21
@@ -50,7 +50,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff = Stremme.A.; Code = IB359L; Comments =  ; Suitabilities =  ; Raw line = {IB359L, IB359 Derivatives and Risk Management, Tuesday, 18:00, 20:00, R0.21, 15-24,  ,  , Stremme.A.}
-DTSTAMP;TZID=Europe/London:20160202T180000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160202T180000
 DTEND;TZID=Europe/London:20160202T200000
 LOCATION:R0.21
@@ -58,7 +58,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff = Stremme.A.; Code = IB359L; Comments =  ; Suitabilities =  ; Raw line = {IB359L, IB359 Derivatives and Risk Management, Tuesday, 18:00, 20:00, R0.21, 15-24,  ,  , Stremme.A.}
-DTSTAMP;TZID=Europe/London:20160209T180000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160209T180000
 DTEND;TZID=Europe/London:20160209T200000
 LOCATION:R0.21
@@ -66,7 +66,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff = Stremme.A.; Code = IB359L; Comments =  ; Suitabilities =  ; Raw line = {IB359L, IB359 Derivatives and Risk Management, Tuesday, 18:00, 20:00, R0.21, 15-24,  ,  , Stremme.A.}
-DTSTAMP;TZID=Europe/London:20160216T180000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160216T180000
 DTEND;TZID=Europe/London:20160216T200000
 LOCATION:R0.21
@@ -74,7 +74,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff = Stremme.A.; Code = IB359L; Comments =  ; Suitabilities =  ; Raw line = {IB359L, IB359 Derivatives and Risk Management, Tuesday, 18:00, 20:00, R0.21, 15-24,  ,  , Stremme.A.}
-DTSTAMP;TZID=Europe/London:20160223T180000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160223T180000
 DTEND;TZID=Europe/London:20160223T200000
 LOCATION:R0.21
@@ -82,7 +82,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff = Stremme.A.; Code = IB359L; Comments =  ; Suitabilities =  ; Raw line = {IB359L, IB359 Derivatives and Risk Management, Tuesday, 18:00, 20:00, R0.21, 15-24,  ,  , Stremme.A.}
-DTSTAMP;TZID=Europe/London:20160301T180000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160301T180000
 DTEND;TZID=Europe/London:20160301T200000
 LOCATION:R0.21
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff = Stremme.A.; Code = IB359L; Comments =  ; Suitabilities =  ; Raw line = {IB359L, IB359 Derivatives and Risk Management, Tuesday, 18:00, 20:00, R0.21, 15-24,  ,  , Stremme.A.}
-DTSTAMP;TZID=Europe/London:20160308T180000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160308T180000
 DTEND;TZID=Europe/London:20160308T200000
 LOCATION:R0.21
@@ -98,7 +98,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff = Stremme.A.; Code = IB359L; Comments =  ; Suitabilities =  ; Raw line = {IB359L, IB359 Derivatives and Risk Management, Tuesday, 18:00, 20:00, R0.21, 15-24,  ,  , Stremme.A.}
-DTSTAMP;TZID=Europe/London:20160315T180000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160315T180000
 DTEND;TZID=Europe/London:20160315T200000
 LOCATION:R0.21
@@ -106,7 +106,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 10:00, 11:00, R2.41,S0.10, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160122T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160122T100000
 DTEND;TZID=Europe/London:20160122T110000
 LOCATION:R2.41,S0.10
@@ -114,7 +114,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 10:00, 11:00, R2.41,S0.10, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160129T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160129T100000
 DTEND;TZID=Europe/London:20160129T110000
 LOCATION:R2.41,S0.10
@@ -122,7 +122,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 10:00, 11:00, R2.41,S0.10, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160205T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160205T100000
 DTEND;TZID=Europe/London:20160205T110000
 LOCATION:R2.41,S0.10
@@ -130,7 +130,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 10:00, 11:00, R2.41,S0.10, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160212T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160212T100000
 DTEND;TZID=Europe/London:20160212T110000
 LOCATION:R2.41,S0.10
@@ -138,7 +138,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 10:00, 11:00, R2.41,S0.10, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160219T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160219T100000
 DTEND;TZID=Europe/London:20160219T110000
 LOCATION:R2.41,S0.10
@@ -146,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 10:00, 11:00, R2.41,S0.10, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160226T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160226T100000
 DTEND;TZID=Europe/London:20160226T110000
 LOCATION:R2.41,S0.10
@@ -154,7 +154,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 10:00, 11:00, R2.41,S0.10, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160304T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160304T100000
 DTEND;TZID=Europe/London:20160304T110000
 LOCATION:R2.41,S0.10
@@ -162,7 +162,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 10:00, 11:00, R2.41,S0.10, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160311T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160311T100000
 DTEND;TZID=Europe/London:20160311T110000
 LOCATION:R2.41,S0.10
@@ -170,7 +170,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 10:00, 11:00, R2.41,S0.10, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160318T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160318T100000
 DTEND;TZID=Europe/London:20160318T110000
 LOCATION:R2.41,S0.10
@@ -178,7 +178,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Lrevision; Comments =  ; Suitabilities =  ; Raw line = {IB359Lrevision, IB359 Derivatives and Risk Management, Friday, 10:00, 12:00, L3, 31,  ,  ,  }
-DTSTAMP;TZID=Europe/London:20160506T100000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160506T100000
 DTEND;TZID=Europe/London:20160506T120000
 LOCATION:L3
@@ -186,7 +186,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 11:00, 12:00, R1.15,R2.41, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160122T110000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160122T110000
 DTEND;TZID=Europe/London:20160122T120000
 LOCATION:R1.15,R2.41
@@ -194,7 +194,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 11:00, 12:00, R1.15,R2.41, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160129T110000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160129T110000
 DTEND;TZID=Europe/London:20160129T120000
 LOCATION:R1.15,R2.41
@@ -202,7 +202,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 11:00, 12:00, R1.15,R2.41, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160205T110000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160205T110000
 DTEND;TZID=Europe/London:20160205T120000
 LOCATION:R1.15,R2.41
@@ -210,7 +210,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 11:00, 12:00, R1.15,R2.41, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160212T110000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160212T110000
 DTEND;TZID=Europe/London:20160212T120000
 LOCATION:R1.15,R2.41
@@ -218,7 +218,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 11:00, 12:00, R1.15,R2.41, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160219T110000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160219T110000
 DTEND;TZID=Europe/London:20160219T120000
 LOCATION:R1.15,R2.41
@@ -226,7 +226,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 11:00, 12:00, R1.15,R2.41, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160226T110000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160226T110000
 DTEND;TZID=Europe/London:20160226T120000
 LOCATION:R1.15,R2.41
@@ -234,7 +234,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 11:00, 12:00, R1.15,R2.41, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160304T110000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160304T110000
 DTEND;TZID=Europe/London:20160304T120000
 LOCATION:R1.15,R2.41
@@ -242,7 +242,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 11:00, 12:00, R1.15,R2.41, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160311T110000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160311T110000
 DTEND;TZID=Europe/London:20160311T120000
 LOCATION:R1.15,R2.41
@@ -250,7 +250,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 11:00, 12:00, R1.15,R2.41, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160318T110000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160318T110000
 DTEND;TZID=Europe/London:20160318T120000
 LOCATION:R1.15,R2.41
@@ -258,7 +258,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 12:00, 13:00, A0.05 (Soc Sci),R2.41, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160122T120000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160122T120000
 DTEND;TZID=Europe/London:20160122T130000
 LOCATION:A0.05 (Soc Sci),R2.41
@@ -266,7 +266,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 12:00, 13:00, A0.05 (Soc Sci),R2.41, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160129T120000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160129T120000
 DTEND;TZID=Europe/London:20160129T130000
 LOCATION:A0.05 (Soc Sci),R2.41
@@ -274,7 +274,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 12:00, 13:00, A0.05 (Soc Sci),R2.41, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160205T120000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160205T120000
 DTEND;TZID=Europe/London:20160205T130000
 LOCATION:A0.05 (Soc Sci),R2.41
@@ -282,7 +282,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 12:00, 13:00, A0.05 (Soc Sci),R2.41, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160212T120000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160212T120000
 DTEND;TZID=Europe/London:20160212T130000
 LOCATION:A0.05 (Soc Sci),R2.41
@@ -290,7 +290,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 12:00, 13:00, A0.05 (Soc Sci),R2.41, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160219T120000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160219T120000
 DTEND;TZID=Europe/London:20160219T130000
 LOCATION:A0.05 (Soc Sci),R2.41
@@ -298,7 +298,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 12:00, 13:00, A0.05 (Soc Sci),R2.41, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160226T120000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160226T120000
 DTEND;TZID=Europe/London:20160226T130000
 LOCATION:A0.05 (Soc Sci),R2.41
@@ -306,7 +306,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 12:00, 13:00, A0.05 (Soc Sci),R2.41, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160304T120000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160304T120000
 DTEND;TZID=Europe/London:20160304T130000
 LOCATION:A0.05 (Soc Sci),R2.41
@@ -314,7 +314,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 12:00, 13:00, A0.05 (Soc Sci),R2.41, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160311T120000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160311T120000
 DTEND;TZID=Europe/London:20160311T130000
 LOCATION:A0.05 (Soc Sci),R2.41
@@ -322,7 +322,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 12:00, 13:00, A0.05 (Soc Sci),R2.41, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160318T120000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160318T120000
 DTEND;TZID=Europe/London:20160318T130000
 LOCATION:A0.05 (Soc Sci),R2.41
@@ -330,7 +330,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 14:00, 15:00, A0.05 (Soc Sci),H3.44, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160122T140000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160122T140000
 DTEND;TZID=Europe/London:20160122T150000
 LOCATION:A0.05 (Soc Sci),H3.44
@@ -338,7 +338,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 14:00, 15:00, A0.05 (Soc Sci),H3.44, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160129T140000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160129T140000
 DTEND;TZID=Europe/London:20160129T150000
 LOCATION:A0.05 (Soc Sci),H3.44
@@ -346,7 +346,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 14:00, 15:00, A0.05 (Soc Sci),H3.44, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160205T140000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160205T140000
 DTEND;TZID=Europe/London:20160205T150000
 LOCATION:A0.05 (Soc Sci),H3.44
@@ -354,7 +354,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 14:00, 15:00, A0.05 (Soc Sci),H3.44, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160212T140000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160212T140000
 DTEND;TZID=Europe/London:20160212T150000
 LOCATION:A0.05 (Soc Sci),H3.44
@@ -362,7 +362,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 14:00, 15:00, A0.05 (Soc Sci),H3.44, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160219T140000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160219T140000
 DTEND;TZID=Europe/London:20160219T150000
 LOCATION:A0.05 (Soc Sci),H3.44
@@ -370,7 +370,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 14:00, 15:00, A0.05 (Soc Sci),H3.44, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160226T140000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160226T140000
 DTEND;TZID=Europe/London:20160226T150000
 LOCATION:A0.05 (Soc Sci),H3.44
@@ -378,7 +378,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 14:00, 15:00, A0.05 (Soc Sci),H3.44, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160304T140000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160304T140000
 DTEND;TZID=Europe/London:20160304T150000
 LOCATION:A0.05 (Soc Sci),H3.44
@@ -386,7 +386,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 14:00, 15:00, A0.05 (Soc Sci),H3.44, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160311T140000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160311T140000
 DTEND;TZID=Europe/London:20160311T150000
 LOCATION:A0.05 (Soc Sci),H3.44
@@ -394,7 +394,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 14:00, 15:00, A0.05 (Soc Sci),H3.44, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160318T140000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160318T140000
 DTEND;TZID=Europe/London:20160318T150000
 LOCATION:A0.05 (Soc Sci),H3.44
@@ -402,7 +402,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Lrevision; Comments =  ; Suitabilities =  ; Raw line = {IB359Lrevision, IB359 Derivatives and Risk Management, Friday, 14:00, 16:00, R0.21, 31,  ,  ,  }
-DTSTAMP;TZID=Europe/London:20160506T140000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160506T140000
 DTEND;TZID=Europe/London:20160506T160000
 LOCATION:R0.21
@@ -410,7 +410,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 15:00, 16:00, A0.05 (Soc Sci),H3.44, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160122T150000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160122T150000
 DTEND;TZID=Europe/London:20160122T160000
 LOCATION:A0.05 (Soc Sci),H3.44
@@ -418,7 +418,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 15:00, 16:00, A0.05 (Soc Sci),H3.44, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160129T150000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160129T150000
 DTEND;TZID=Europe/London:20160129T160000
 LOCATION:A0.05 (Soc Sci),H3.44
@@ -426,7 +426,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 15:00, 16:00, A0.05 (Soc Sci),H3.44, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160205T150000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160205T150000
 DTEND;TZID=Europe/London:20160205T160000
 LOCATION:A0.05 (Soc Sci),H3.44
@@ -434,7 +434,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 15:00, 16:00, A0.05 (Soc Sci),H3.44, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160212T150000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160212T150000
 DTEND;TZID=Europe/London:20160212T160000
 LOCATION:A0.05 (Soc Sci),H3.44
@@ -442,7 +442,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 15:00, 16:00, A0.05 (Soc Sci),H3.44, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160219T150000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160219T150000
 DTEND;TZID=Europe/London:20160219T160000
 LOCATION:A0.05 (Soc Sci),H3.44
@@ -450,7 +450,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 15:00, 16:00, A0.05 (Soc Sci),H3.44, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160226T150000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160226T150000
 DTEND;TZID=Europe/London:20160226T160000
 LOCATION:A0.05 (Soc Sci),H3.44
@@ -458,7 +458,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 15:00, 16:00, A0.05 (Soc Sci),H3.44, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160304T150000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160304T150000
 DTEND;TZID=Europe/London:20160304T160000
 LOCATION:A0.05 (Soc Sci),H3.44
@@ -466,7 +466,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 15:00, 16:00, A0.05 (Soc Sci),H3.44, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160311T150000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160311T150000
 DTEND;TZID=Europe/London:20160311T160000
 LOCATION:A0.05 (Soc Sci),H3.44
@@ -474,7 +474,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IB359 - Derivatives and Risk Management
 DESCRIPTION:Staff =  ; Code = IB359Sm; Comments =  ; Suitabilities = -Campus-Mainsite; Raw line = {IB359Sm, IB359 Derivatives and Risk Management, Friday, 15:00, 16:00, A0.05 (Soc Sci),H3.44, 16-24,  , -Campus-Mainsite,  }
-DTSTAMP;TZID=Europe/London:20160318T150000
+DTSTAMP:20151005T120000
 DTSTART;TZID=Europe/London:20160318T150000
 DTEND;TZID=Europe/London:20160318T160000
 LOCATION:A0.05 (Soc Sci),H3.44
