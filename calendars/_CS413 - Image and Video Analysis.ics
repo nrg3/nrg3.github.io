@@ -2,7 +2,7 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//hand_made//me//EN
 CALSCALE:GREGORIAN
-X-WR-CALNAME;VALUE=TEXT:CS413 - Image and Video Analysis
+X-WR-CALNAME;VALUE=TEXT:_CS413 - Image and Video Analysis
 BEGIN:VEVENT
 SUMMARY:CS413 - Image and Video Analysis
 DESCRIPTION:Staff = Bhalerao.A.H; Code = CS413L; Comments =  ; Suitabilities =  ; Raw line = {CS413L, CS413 Image and Video Analysis, Monday, 12:00, 13:00, CS_CS1.04, 2-10,  ,  , Bhalerao.A.H}
